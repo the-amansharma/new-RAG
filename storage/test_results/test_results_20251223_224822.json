@@ -1,0 +1,2400 @@
+{
+  "query_1": {
+    "original_query": "GST rate on construction services under IGST as on October 2021",
+    "variations": [
+      {
+        "query": "GST rate on construction services under IGST as on October 2021",
+        "timestamp": "2025-12-23T22:48:10.069293",
+        "query_time": 0.8152647018432617,
+        "results_count": 5,
+        "top_score": 0.7717874,
+        "results": [
+          {
+            "score": 0.7717874,
+            "group_id": "Central Tax::24/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 2,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.76913977,
+            "group_id": "Integrated Tax::24/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n18 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.7569115,
+            "group_id": "Integrated Tax::23/2018",
+            "tax_type": "Integrated Tax",
+            "notification_no": "23/2018",
+            "chunk_index": 1,
+            "chunk_text_preview": "1263 (E), dated the 13th October, 2017, and\nlast amended vide notification No 13/2018-Integrated Tax (Rate), dated the 29th June, 2018,\npublished in the Gazette of India, Extraordinary, Part II, Secti...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-08-06"
+          },
+          {
+            "score": 0.75661254,
+            "group_id": "Union Territory Tax::24/2017",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.74660176,
+            "group_id": "Integrated Tax::05/2023",
+            "tax_type": "Integrated Tax",
+            "notification_no": "05/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "8/2017-\nIntegrated Tax (Rate), dated the 28th June, 2017, published in the Gazette of India, Extraordinary, Part II, Section 3,\nSub-section (i), vide number G.S.R 683(E), dated the 28th June, 2017, na...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-10-26"
+          }
+        ]
+      },
+      {
+        "query": "What is GST rate on construction services under IGST as on October 2021",
+        "timestamp": "2025-12-23T22:48:10.441025",
+        "query_time": 0.37151002883911133,
+        "results_count": 5,
+        "top_score": 0.7532291,
+        "results": [
+          {
+            "score": 0.7532291,
+            "group_id": "Integrated Tax::23/2018",
+            "tax_type": "Integrated Tax",
+            "notification_no": "23/2018",
+            "chunk_index": 1,
+            "chunk_text_preview": "1263 (E), dated the 13th October, 2017, and\nlast amended vide notification No 13/2018-Integrated Tax (Rate), dated the 29th June, 2018,\npublished in the Gazette of India, Extraordinary, Part II, Secti...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-08-06"
+          },
+          {
+            "score": 0.7440197,
+            "group_id": "Integrated Tax::05/2023",
+            "tax_type": "Integrated Tax",
+            "notification_no": "05/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "8/2017-\nIntegrated Tax (Rate), dated the 28th June, 2017, published in the Gazette of India, Extraordinary, Part II, Section 3,\nSub-section (i), vide number G.S.R 683(E), dated the 28th June, 2017, na...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-10-26"
+          },
+          {
+            "score": 0.7393013,
+            "group_id": "Integrated Tax::13/2018",
+            "tax_type": "Integrated Tax",
+            "notification_no": "13/2018",
+            "chunk_index": 1,
+            "chunk_text_preview": "1263 (E), dated the 13th October, 2017, and\nlast amended vide notification No 11/2018-Integrated Tax (Rate), dated the 23rd March,\n2018, published in the Gazette of India, Extraordinary, Part II, Sect...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-06-29"
+          },
+          {
+            "score": 0.73829615,
+            "group_id": "Integrated Tax::01/2019",
+            "tax_type": "Integrated Tax",
+            "notification_no": "01/2019",
+            "chunk_index": 1,
+            "chunk_text_preview": "1263 (E), dated\nthe 13th October, 2017, except as respects things done or omitted to be done before such\nrescission 2 This notification shall come into force with effect from the 1st day of February, ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-01-29"
+          },
+          {
+            "score": 0.7381113,
+            "group_id": "Integrated Tax::39/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "39/2017",
+            "chunk_index": 8,
+            "chunk_text_preview": "of the rate of integrated\npurchased and leased prior to 1st July tax as applicable on supply of like\n2017; goods involving transfer of title in\n-\ngoods Note:- Nothing contained in this entry\nshall app...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-10-13"
+          }
+        ]
+      },
+      {
+        "query": "Tell me about GST rate on construction services under IGST as on October 2021",
+        "timestamp": "2025-12-23T22:48:10.776989",
+        "query_time": 0.33579182624816895,
+        "results_count": 5,
+        "top_score": 0.76902103,
+        "results": [
+          {
+            "score": 0.76902103,
+            "group_id": "Central Tax::24/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 2,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.7674549,
+            "group_id": "Integrated Tax::24/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n18 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.7579129,
+            "group_id": "Integrated Tax::23/2018",
+            "tax_type": "Integrated Tax",
+            "notification_no": "23/2018",
+            "chunk_index": 1,
+            "chunk_text_preview": "1263 (E), dated the 13th October, 2017, and\nlast amended vide notification No 13/2018-Integrated Tax (Rate), dated the 29th June, 2018,\npublished in the Gazette of India, Extraordinary, Part II, Secti...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-08-06"
+          },
+          {
+            "score": 0.75490975,
+            "group_id": "Union Territory Tax::24/2017",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.7512658,
+            "group_id": "Integrated Tax::05/2023",
+            "tax_type": "Integrated Tax",
+            "notification_no": "05/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "8/2017-\nIntegrated Tax (Rate), dated the 28th June, 2017, published in the Gazette of India, Extraordinary, Part II, Section 3,\nSub-section (i), vide number G.S.R 683(E), dated the 28th June, 2017, na...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-10-26"
+          }
+        ]
+      },
+      {
+        "query": "GST rate on construction services under IGST",
+        "timestamp": "2025-12-23T22:48:11.318369",
+        "query_time": 0.5411906242370605,
+        "results_count": 5,
+        "top_score": 0.76497674,
+        "results": [
+          {
+            "score": 0.76497674,
+            "group_id": "Integrated Tax::24/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n18 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.76026344,
+            "group_id": "Central Tax::24/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 2,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.75129056,
+            "group_id": "Union Territory Tax::24/2017",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.73059654,
+            "group_id": "Integrated Tax::05/2023",
+            "tax_type": "Integrated Tax",
+            "notification_no": "05/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "8/2017-\nIntegrated Tax (Rate), dated the 28th June, 2017, published in the Gazette of India, Extraordinary, Part II, Section 3,\nSub-section (i), vide number G.S.R 683(E), dated the 28th June, 2017, na...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-10-26"
+          },
+          {
+            "score": 0.7300781,
+            "group_id": "Central Tax::04/2019",
+            "tax_type": "Central Tax",
+            "notification_no": "04/2019",
+            "chunk_index": 5,
+            "chunk_text_preview": "[PAGE 3]\nwhichever is earlier the residential apartments in the project);\nThe amount of GST\nProvided further that the tax payable in terms\nexemption available for\nof the first proviso shall not exceed...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-03-29"
+          }
+        ]
+      },
+      {
+        "query": "GST rate on construction services under IGST effective date",
+        "timestamp": "2025-12-23T22:48:11.690814",
+        "query_time": 0.3722841739654541,
+        "results_count": 5,
+        "top_score": 0.78643537,
+        "results": [
+          {
+            "score": 0.78643537,
+            "group_id": "Integrated Tax::24/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n18 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.7849264,
+            "group_id": "Central Tax::24/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 2,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.77569914,
+            "group_id": "Union Territory Tax::24/2017",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.77396345,
+            "group_id": "Integrated Tax::05/2023",
+            "tax_type": "Integrated Tax",
+            "notification_no": "05/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "8/2017-\nIntegrated Tax (Rate), dated the 28th June, 2017, published in the Gazette of India, Extraordinary, Part II, Section 3,\nSub-section (i), vide number G.S.R 683(E), dated the 28th June, 2017, na...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-10-26"
+          },
+          {
+            "score": 0.7568009,
+            "group_id": "Integrated Tax::39/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "39/2017",
+            "chunk_index": 8,
+            "chunk_text_preview": "of the rate of integrated\npurchased and leased prior to 1st July tax as applicable on supply of like\n2017; goods involving transfer of title in\n-\ngoods Note:- Nothing contained in this entry\nshall app...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-10-13"
+          }
+        ]
+      },
+      {
+        "query": "GST rate on construction services under Integrated Goods and Services Tax as on October 2021",
+        "timestamp": "2025-12-23T22:48:12.018787",
+        "query_time": 0.3277933597564697,
+        "results_count": 5,
+        "top_score": 0.7986809,
+        "results": [
+          {
+            "score": 0.7986809,
+            "group_id": "Integrated Tax::24/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n18 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.79199946,
+            "group_id": "Central Tax::24/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 2,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.79114753,
+            "group_id": "Integrated Tax::18/2023",
+            "tax_type": "Integrated Tax",
+            "notification_no": "18/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "12/2017-Integrated Tax (Rate), dated the 28th June, 2017, published\nin the Gazette of India, Extraordinary, Part II, Section 3, Sub-section (i), vide number G.S.R 687(E), dated the 28th June,\n2017, na...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-10-19"
+          },
+          {
+            "score": 0.79010355,
+            "group_id": "Integrated Tax::30/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "30/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "30/2017-Integrated Tax (Rate)\nNew Delhi, the 22nd September, 2017\nG.S.R (E).- In exercise of the powers conferred by sub-section (1) of section 6 of the\nIntegrated Goods and Services Tax Act, 2017 (13...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-22"
+          },
+          {
+            "score": 0.78673226,
+            "group_id": "Central Tax::54/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "54/2018",
+            "chunk_index": 4,
+            "chunk_text_preview": "41/2017-Integrated Tax (Rate), dated\nthe 23rd October, 2017, published in the Gazette of India, Extraordinary, Part II, Section\n3, Sub-section (i), vide number G.S.R 1321 (E), dated the 23rd October, ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-10-09"
+          }
+        ]
+      },
+      {
+        "query": "Goods and Services Tax rate on construction services under IGoods and Services Tax as on October 2021",
+        "timestamp": "2025-12-23T22:48:12.346727",
+        "query_time": 0.3277618885040283,
+        "results_count": 5,
+        "top_score": 0.77281207,
+        "results": [
+          {
+            "score": 0.77281207,
+            "group_id": "Integrated Tax::24/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n18 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.76817334,
+            "group_id": "Central Tax::24/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 2,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.7602305,
+            "group_id": "Integrated Tax::18/2023",
+            "tax_type": "Integrated Tax",
+            "notification_no": "18/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "12/2017-Integrated Tax (Rate), dated the 28th June, 2017, published\nin the Gazette of India, Extraordinary, Part II, Section 3, Sub-section (i), vide number G.S.R 687(E), dated the 28th June,\n2017, na...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-10-19"
+          },
+          {
+            "score": 0.7558756,
+            "group_id": "Integrated Tax::30/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "30/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "30/2017-Integrated Tax (Rate)\nNew Delhi, the 22nd September, 2017\nG.S.R (E).- In exercise of the powers conferred by sub-section (1) of section 6 of the\nIntegrated Goods and Services Tax Act, 2017 (13...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-22"
+          },
+          {
+            "score": 0.74681836,
+            "group_id": "Integrated Tax::22/2018",
+            "tax_type": "Integrated Tax",
+            "notification_no": "22/2018",
+            "chunk_index": 1,
+            "chunk_text_preview": "22/2018 -Integrated Tax (Rate)\nNew Delhi, the 26th July, 2018\nG.S.R (E).- In exercise of the powers conferred by sub-section (1) of section 6 of the Integrated\nGoods and Services Tax Act, 2017 (13 of ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-07-26"
+          }
+        ]
+      },
+      {
+        "query": "GST rate on construction services under IGST as on October 2021?",
+        "timestamp": "2025-12-23T22:48:12.675375",
+        "query_time": 0.3283700942993164,
+        "results_count": 5,
+        "top_score": 0.75982225,
+        "results": [
+          {
+            "score": 0.75982225,
+            "group_id": "Integrated Tax::23/2018",
+            "tax_type": "Integrated Tax",
+            "notification_no": "23/2018",
+            "chunk_index": 1,
+            "chunk_text_preview": "1263 (E), dated the 13th October, 2017, and\nlast amended vide notification No 13/2018-Integrated Tax (Rate), dated the 29th June, 2018,\npublished in the Gazette of India, Extraordinary, Part II, Secti...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-08-06"
+          },
+          {
+            "score": 0.75169694,
+            "group_id": "Integrated Tax::05/2023",
+            "tax_type": "Integrated Tax",
+            "notification_no": "05/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "8/2017-\nIntegrated Tax (Rate), dated the 28th June, 2017, published in the Gazette of India, Extraordinary, Part II, Section 3,\nSub-section (i), vide number G.S.R 683(E), dated the 28th June, 2017, na...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-10-26"
+          },
+          {
+            "score": 0.7459765,
+            "group_id": "Integrated Tax::13/2018",
+            "tax_type": "Integrated Tax",
+            "notification_no": "13/2018",
+            "chunk_index": 1,
+            "chunk_text_preview": "1263 (E), dated the 13th October, 2017, and\nlast amended vide notification No 11/2018-Integrated Tax (Rate), dated the 23rd March,\n2018, published in the Gazette of India, Extraordinary, Part II, Sect...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-06-29"
+          },
+          {
+            "score": 0.7449799,
+            "group_id": "Integrated Tax::39/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "39/2017",
+            "chunk_index": 8,
+            "chunk_text_preview": "of the rate of integrated\npurchased and leased prior to 1st July tax as applicable on supply of like\n2017; goods involving transfer of title in\n-\ngoods Note:- Nothing contained in this entry\nshall app...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-10-13"
+          },
+          {
+            "score": 0.74479824,
+            "group_id": "Integrated Tax::01/2019",
+            "tax_type": "Integrated Tax",
+            "notification_no": "01/2019",
+            "chunk_index": 1,
+            "chunk_text_preview": "1263 (E), dated\nthe 13th October, 2017, except as respects things done or omitted to be done before such\nrescission 2 This notification shall come into force with effect from the 1st day of February, ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-01-29"
+          }
+        ]
+      },
+      {
+        "query": "notification GST rate on construction services under IGST as on October 2021",
+        "timestamp": "2025-12-23T22:48:12.996199",
+        "query_time": 0.32064080238342285,
+        "results_count": 5,
+        "top_score": 0.77910155,
+        "results": [
+          {
+            "score": 0.77910155,
+            "group_id": "Central Tax::24/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 2,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.7770469,
+            "group_id": "Integrated Tax::24/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n18 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.7690381,
+            "group_id": "Integrated Tax::23/2018",
+            "tax_type": "Integrated Tax",
+            "notification_no": "23/2018",
+            "chunk_index": 1,
+            "chunk_text_preview": "1263 (E), dated the 13th October, 2017, and\nlast amended vide notification No 13/2018-Integrated Tax (Rate), dated the 29th June, 2018,\npublished in the Gazette of India, Extraordinary, Part II, Secti...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-08-06"
+          },
+          {
+            "score": 0.7671005,
+            "group_id": "Central Tax::14/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "14/2020",
+            "chunk_index": 2,
+            "chunk_text_preview": "2 This notification shall come into force from the 1st day of October, 2020 [F No.20/06/03/2020-GST]\n(Pramod Kumar)\nDirector, Government of India",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-03-21"
+          },
+          {
+            "score": 0.7670361,
+            "group_id": "Union Territory Tax::24/2017",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          }
+        ]
+      },
+      {
+        "query": "gst rate construction services under",
+        "timestamp": "2025-12-23T22:48:13.315991",
+        "query_time": 0.3195929527282715,
+        "results_count": 5,
+        "top_score": 0.7620102,
+        "results": [
+          {
+            "score": 0.7620102,
+            "group_id": "Central Tax::24/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 2,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.7489749,
+            "group_id": "Union Territory Tax::24/2017",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n9 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.74617875,
+            "group_id": "Integrated Tax::24/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "24/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "1 [PAGE 2]\n(vii) Construction services other than (i), (ii), (iii), (iv), (v)\n18 -” and (vi) above [F No.354/173/2017 -TRU]\n(Ruchi Bisht)\nUnder Secretary to the Government of India\nNote:-The principal...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-21"
+          },
+          {
+            "score": 0.73633873,
+            "group_id": "Union Territory Tax::04/2019",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "04/2019",
+            "chunk_index": 5,
+            "chunk_text_preview": "[PAGE 3]\nrequired, by the project which remain un- booked on the\ncompetent authority or date of issuance of completion certificate\nafter its first occupation, or first occupation ÷ Total carpet area o...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-03-29"
+          },
+          {
+            "score": 0.733968,
+            "group_id": "Central Tax::03/2019",
+            "tax_type": "Central Tax",
+            "notification_no": "03/2019",
+            "chunk_index": 76,
+            "chunk_text_preview": "To fulfill his tax liability\non the shortfall of 30 per cent from mandatory purchase, the promoter has to pay GST on cement at\nthe applicable rate on reverse charge basis After payment of GST on cemen...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-08-30"
+          }
+        ]
+      }
+    ]
+  },
+  "query_2": {
+    "original_query": "what is notification 01/2021 central tax",
+    "variations": [
+      {
+        "query": "what is notification 01/2021 central tax",
+        "timestamp": "2025-12-23T22:48:13.633976",
+        "query_time": 0.3169407844543457,
+        "results_count": 5,
+        "top_score": 0.8434274,
+        "results": [
+          {
+            "score": 0.8434274,
+            "group_id": "Central Tax::29/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "29/2018",
+            "chunk_index": 4,
+            "chunk_text_preview": "2 This notification shall come into force on the 1st day of January, 2019 [F No 354/428/2018- TRU]\n(Gunjan Kumar Verma)\nUnder Secretary to the Government of India\nNote: -The principal notification No ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-12-31"
+          },
+          {
+            "score": 0.84118533,
+            "group_id": "Central Tax::33/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "33/2020",
+            "chunk_index": 2,
+            "chunk_text_preview": "4/2018– Central Tax, dated the 23rd January, 2018, was\npublished in the Gazette of India, Extraordinary, Part II, Section 3, Sub- section (i) vide\nnumber G.S.R 53(E), dated the 23rd January,2018 and w...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-04-03"
+          },
+          {
+            "score": 0.83856344,
+            "group_id": "Central Tax::10/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "[F No CBIC- 20021/1/2023-GST]\n(Alok Kumar)\nDirector\nNote: The principal notification No 13/2020 – Central Tax, dated the 21st March, 2020 was published in the Gazette\nof India, Extraordinary, Part II,...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-26"
+          },
+          {
+            "score": 0.83514625,
+            "group_id": "Central Tax::11/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "11/2023",
+            "chunk_index": 2,
+            "chunk_text_preview": "83/2020 –Central Tax, dated the 10th November, 2020 was published in\nthe Gazette of India, Extraordinary vide number G.S.R 699(E), dated the 10th November, 2020 and was\nlast amended by notification No...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-09-29"
+          },
+          {
+            "score": 0.8333883,
+            "group_id": "Central Tax::05/2021",
+            "tax_type": "Central Tax",
+            "notification_no": "05/2021",
+            "chunk_index": 1,
+            "chunk_text_preview": "[F No CBEC-20/13/01/2019-GST]\n(Pramod Kumar)\nDirector, Government of India\nNote: The principal notification No 13/2020 – Central Tax, dated the 21st March, 2020 was\npublished in the Gazette of India, ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2021-06-15"
+          }
+        ]
+      },
+      {
+        "query": "notification 01/2021",
+        "timestamp": "2025-12-23T22:48:13.947436",
+        "query_time": 0.31326818466186523,
+        "results_count": 5,
+        "top_score": 0.7596777,
+        "results": [
+          {
+            "score": 0.7596777,
+            "group_id": "Central Tax::83/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "83/2020",
+            "chunk_index": 3,
+            "chunk_text_preview": "2 This notification shall come into force with effect from the 1st day of January, 2021 [F No CBEC 20/06/04/2020-GST]\n(Pramod Kumar)\nDirector, Government of India",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-11-10"
+          },
+          {
+            "score": 0.75298274,
+            "group_id": "Integrated Tax::4/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "4/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "2 This notification shall be deemed to have come into force\non the 22nd day of June, 2017 [F.No S-31011/25/2017-ST-I-DOR]\n(S.R.MEENA)\nUnder Secretary to the Government of India",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-30"
+          },
+          {
+            "score": 0.74944407,
+            "group_id": "Union Territory Tax::10/2023",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "10/2023",
+            "chunk_index": 2,
+            "chunk_text_preview": "01/2023 dated the 1st April, 2023, Extraordinary, Part-I, Section 1 vide F No 01/75/171/00016/AM-23/FTP Cell dated the 1st April, 2023;”\n2 This notification shall come into force on the 27th July, 202...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-26"
+          },
+          {
+            "score": 0.7493741,
+            "group_id": "Central Tax::22/2021",
+            "tax_type": "Central Tax",
+            "notification_no": "22/2021",
+            "chunk_index": 2,
+            "chunk_text_preview": "690(E), dated the 28th June, 2017, namely:-\nIn the said notification, in the TABLE, against serial number 3,-\n1) in column (3),in the heading “Description of Service”, in items (iii),(vi),(ix) and (x)...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2021-11-18"
+          },
+          {
+            "score": 0.7475266,
+            "group_id": "Central Tax::20/2021",
+            "tax_type": "Central Tax",
+            "notification_no": "20/2021",
+            "chunk_index": 1,
+            "chunk_text_preview": "695(E), dated the 26th\nJuly, 2018, namely :-\nIn the said notification, in the TABLE, -\n(i) against S No 4, for the entry in column (2), the entry “4414” shall be\nsubstituted;\n(ii) against S No 29, for...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2021-12-28"
+          }
+        ]
+      },
+      {
+        "query": "notification number 01/2021",
+        "timestamp": "2025-12-23T22:48:14.258745",
+        "query_time": 0.3110942840576172,
+        "results_count": 5,
+        "top_score": 0.775291,
+        "results": [
+          {
+            "score": 0.775291,
+            "group_id": "Central Tax::35/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "35/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "674(E), dated the 28th\nJune, 2017, namely:-\nIn the said notification,-\n(A) in the Schedule,-\n(i) after S No 122 and the entries relating thereto, the following serial number and\nthe entries shall be i...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-10-13"
+          },
+          {
+            "score": 0.76958984,
+            "group_id": "Union Territory Tax::35/2017",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "35/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "711(E), dated the 28th June, 2017, namely:-\nIn the said notification,-\n(A) in the Schedule,-\n(i) after S No 122 and the entries relating thereto, the following serial number and\nthe entries shall be i...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-10-13"
+          },
+          {
+            "score": 0.76522994,
+            "group_id": "Integrated Tax::4/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "4/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "2 This notification shall be deemed to have come into force\non the 22nd day of June, 2017 [F.No S-31011/25/2017-ST-I-DOR]\n(S.R.MEENA)\nUnder Secretary to the Government of India",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-30"
+          },
+          {
+            "score": 0.7593359,
+            "group_id": "Integrated Tax::36/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "36/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "667(E), dated the 28th\nJune, 2017, namely:-\nIn the said notification,-\n(A) in the Schedule,-\n(i) after S No 122 and the entries relating thereto, the following serial number and\nthe entries shall be i...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-10-13"
+          },
+          {
+            "score": 0.75177085,
+            "group_id": "Central Tax::20/2021",
+            "tax_type": "Central Tax",
+            "notification_no": "20/2021",
+            "chunk_index": 1,
+            "chunk_text_preview": "695(E), dated the 26th\nJuly, 2018, namely :-\nIn the said notification, in the TABLE, -\n(i) against S No 4, for the entry in column (2), the entry “4414” shall be\nsubstituted;\n(ii) against S No 29, for...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2021-12-28"
+          }
+        ]
+      },
+      {
+        "query": "notif 01/2021",
+        "timestamp": "2025-12-23T22:48:14.577497",
+        "query_time": 0.3184995651245117,
+        "results_count": 5,
+        "top_score": 0.71569014,
+        "results": [
+          {
+            "score": 0.71569014,
+            "group_id": "Central Tax::12/2024",
+            "tax_type": "Central Tax",
+            "notification_no": "12/2024",
+            "chunk_index": 83,
+            "chunk_text_preview": "―2021-22 and 2022-23‖, wherever they occur, the figures and word ―2021-22, 2022-\n23 and 2023-24‖ shall be substituted, and\nii ―2020-21 and 2021-22\", wherever they occur, the figures and word ―2020-21,...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2024-07-10"
+          },
+          {
+            "score": 0.7102636,
+            "group_id": "Central Tax::03/2019",
+            "tax_type": "Central Tax",
+            "notification_no": "03/2019",
+            "chunk_index": 46,
+            "chunk_text_preview": "17 [PAGE 18]\nIllustration 2:\n[F No.354/32/2019-TRU]\n(Pramod Kumar)\n18\nS l N\n1234567891\n0\n1 1\n1 2\n1 3\n1 4\n1 5\n1 6\n1 7\n1 8\n1 9\n2 0\n2 1\n2 2\n2 3\n2 4\n2 5\n2 6\n2 7\n2 8\n2 9\n3 0\n3 1\n3 2\n3 3\n3 4\n3 5\n3 6\n3 7\n3 8...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-08-30"
+          },
+          {
+            "score": 0.7102636,
+            "group_id": "Integrated Tax::03/2019",
+            "tax_type": "Integrated Tax",
+            "notification_no": "03/2019",
+            "chunk_index": 46,
+            "chunk_text_preview": "17 [PAGE 18]\nIllustration 2:\n[F No.354/32/2019-TRU]\n(Pramod Kumar)\n18\nS l N\n1234567891\n0\n1 1\n1 2\n1 3\n1 4\n1 5\n1 6\n1 7\n1 8\n1 9\n2 0\n2 1\n2 2\n2 3\n2 4\n2 5\n2 6\n2 7\n2 8\n2 9\n3 0\n3 1\n3 2\n3 3\n3 4\n3 5\n3 6\n3 7\n3 8...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-08-30"
+          },
+          {
+            "score": 0.7102636,
+            "group_id": "Union Territory Tax::03/2019",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "03/2019",
+            "chunk_index": 46,
+            "chunk_text_preview": "17 [PAGE 18]\nIllustration 2:\n[F No.354/32/2019-TRU]\n(Pramod Kumar)\n18\nS l N\n1234567891\n0\n1 1\n1 2\n1 3\n1 4\n1 5\n1 6\n1 7\n1 8\n1 9\n2 0\n2 1\n2 2\n2 3\n2 4\n2 5\n2 6\n2 7\n2 8\n2 9\n3 0\n3 1\n3 2\n3 3\n3 4\n3 5\n3 6\n3 7\n3 8...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-03-29"
+          },
+          {
+            "score": 0.68843365,
+            "group_id": "Integrated Tax::02/2025",
+            "tax_type": "Integrated Tax",
+            "notification_no": "02/2025",
+            "chunk_index": 2,
+            "chunk_text_preview": "2 Thisnotification shallcomeintoforce withimmediate effect [F.No.190354/2/2025-TRU]\n(Amreeta Titus)\nDeputySecretary [PAGE 2]\nNote: - Theprincipal notification No.2/2017-Integrated Tax (Rate), dated th...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          }
+        ]
+      },
+      {
+        "query": "what is notification 01/2021 central tax?",
+        "timestamp": "2025-12-23T22:48:14.898771",
+        "query_time": 0.32105064392089844,
+        "results_count": 5,
+        "top_score": 0.8435096,
+        "results": [
+          {
+            "score": 0.8435096,
+            "group_id": "Central Tax::33/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "33/2020",
+            "chunk_index": 2,
+            "chunk_text_preview": "4/2018– Central Tax, dated the 23rd January, 2018, was\npublished in the Gazette of India, Extraordinary, Part II, Section 3, Sub- section (i) vide\nnumber G.S.R 53(E), dated the 23rd January,2018 and w...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-04-03"
+          },
+          {
+            "score": 0.8416242,
+            "group_id": "Central Tax::10/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "[F No CBIC- 20021/1/2023-GST]\n(Alok Kumar)\nDirector\nNote: The principal notification No 13/2020 – Central Tax, dated the 21st March, 2020 was published in the Gazette\nof India, Extraordinary, Part II,...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-26"
+          },
+          {
+            "score": 0.84077424,
+            "group_id": "Central Tax::11/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "11/2023",
+            "chunk_index": 2,
+            "chunk_text_preview": "83/2020 –Central Tax, dated the 10th November, 2020 was published in\nthe Gazette of India, Extraordinary vide number G.S.R 699(E), dated the 10th November, 2020 and was\nlast amended by notification No...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-09-29"
+          },
+          {
+            "score": 0.83609927,
+            "group_id": "Central Tax::18/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "18/2023",
+            "chunk_index": 2,
+            "chunk_text_preview": "83/2020 –Central Tax, dated the 10th November, 2020 was published in\nthe Gazette of India, Extraordinary vide number G.S.R 699(E), dated the 10th November, 2020 and was\nlast amended by notification No...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-10-19"
+          },
+          {
+            "score": 0.8360897,
+            "group_id": "Central Tax::17/2022",
+            "tax_type": "Central Tax",
+            "notification_no": "17/2022",
+            "chunk_index": 1,
+            "chunk_text_preview": "[F No CBIC-20021/2/2022-GST]\n(Rajeev Ranjan)\nUnder Secretary\nNote: The principal notification No 13/2020 – Central Tax, dated the 21st March, 2020 was published in the\nGazette of India, Extraordinary,...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2022-08-01"
+          }
+        ]
+      },
+      {
+        "query": "GST what is notification 01/2021 central tax",
+        "timestamp": "2025-12-23T22:48:15.225102",
+        "query_time": 0.3261432647705078,
+        "results_count": 5,
+        "top_score": 0.8598499,
+        "results": [
+          {
+            "score": 0.8598499,
+            "group_id": "Central Tax::20/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "20/2020",
+            "chunk_index": 2,
+            "chunk_text_preview": "This notification shall be deemed to have come into force with effect from the 20th Day of\nDecember, 2019 [F.No.CBEC-20/06/04/2020-GST]\n(Pramod Kumar)\nDirector, Government of India\nNote: The principal...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-03-23"
+          },
+          {
+            "score": 0.85802996,
+            "group_id": "Central Tax::05/2021",
+            "tax_type": "Central Tax",
+            "notification_no": "05/2021",
+            "chunk_index": 1,
+            "chunk_text_preview": "[F No CBEC-20/13/01/2019-GST]\n(Pramod Kumar)\nDirector, Government of India\nNote: The principal notification No 13/2020 – Central Tax, dated the 21st March, 2020 was\npublished in the Gazette of India, ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2021-06-15"
+          },
+          {
+            "score": 0.85784006,
+            "group_id": "Central Tax::23/2019",
+            "tax_type": "Central Tax",
+            "notification_no": "23/2019",
+            "chunk_index": 2,
+            "chunk_text_preview": "[F.No.20/06/17/2018 - GST]\n(Gunjan Kumar Verma)\nUnder Secretary to the Government of India\nNote:- The principal notification No 12/2019- Central Tax, dated the 07th March, 2019 was\npublished in the Ga...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-09-30"
+          },
+          {
+            "score": 0.85442257,
+            "group_id": "Central Tax::09/2024",
+            "tax_type": "Central Tax",
+            "notification_no": "09/2024",
+            "chunk_index": 2,
+            "chunk_text_preview": "This notification shall be deemed to have come into force with effect from the 11th day of April,\n2024 [F No CBIC-20021/1/2024-GST]\n(R Ananth)\nDirector\nNote: The principal notification No 83/2020 –Cen...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2024-10-08"
+          },
+          {
+            "score": 0.85265374,
+            "group_id": "Central Tax::10/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "[F No CBIC- 20021/1/2023-GST]\n(Alok Kumar)\nDirector\nNote: The principal notification No 13/2020 – Central Tax, dated the 21st March, 2020 was published in the Gazette\nof India, Extraordinary, Part II,...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-26"
+          }
+        ]
+      },
+      {
+        "query": "notification 01/2021 central tax",
+        "timestamp": "2025-12-23T22:48:15.551338",
+        "query_time": 0.32608461380004883,
+        "results_count": 5,
+        "top_score": 0.86385906,
+        "results": [
+          {
+            "score": 0.86385906,
+            "group_id": "Central Tax::29/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "29/2018",
+            "chunk_index": 4,
+            "chunk_text_preview": "2 This notification shall come into force on the 1st day of January, 2019 [F No 354/428/2018- TRU]\n(Gunjan Kumar Verma)\nUnder Secretary to the Government of India\nNote: -The principal notification No ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-12-31"
+          },
+          {
+            "score": 0.8622483,
+            "group_id": "Central Tax::13/2022",
+            "tax_type": "Central Tax",
+            "notification_no": "13/2022",
+            "chunk_index": 2,
+            "chunk_text_preview": "674(E)., dated the 28th June,\n2017 and was last amended by notification No 07/2022 – Central Tax (Rate), dated the 13th July, 2022, published in\nthe Gazette of India, Extraordinary, Part II, Section 3...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2022-12-30"
+          },
+          {
+            "score": 0.8602011,
+            "group_id": "Central Tax::33/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "33/2020",
+            "chunk_index": 2,
+            "chunk_text_preview": "4/2018– Central Tax, dated the 23rd January, 2018, was\npublished in the Gazette of India, Extraordinary, Part II, Section 3, Sub- section (i) vide\nnumber G.S.R 53(E), dated the 23rd January,2018 and w...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-04-03"
+          },
+          {
+            "score": 0.859675,
+            "group_id": "Central Tax::10/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "[F No CBIC- 20021/1/2023-GST]\n(Alok Kumar)\nDirector\nNote: The principal notification No 13/2020 – Central Tax, dated the 21st March, 2020 was published in the Gazette\nof India, Extraordinary, Part II,...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-26"
+          },
+          {
+            "score": 0.859476,
+            "group_id": "Central Tax::11/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "11/2023",
+            "chunk_index": 2,
+            "chunk_text_preview": "83/2020 –Central Tax, dated the 10th November, 2020 was published in\nthe Gazette of India, Extraordinary vide number G.S.R 699(E), dated the 10th November, 2020 and was\nlast amended by notification No...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-09-29"
+          }
+        ]
+      }
+    ]
+  },
+  "query_3": {
+    "original_query": "Name the major High Court case that addressed the issue of the legal right of a taxpayer to claim lapsed transitional credit (under the old regime) through the filing of a revised/new TRAN-1 form, where the deadline was missed due to technical glitches.",
+    "variations": [
+      {
+        "query": "Name the major High Court case that addressed the issue of the legal right of a taxpayer to claim lapsed transitional credit (under the old regime) through the filing of a revised/new TRAN-1 form, where the deadline was missed due to technical glitches.",
+        "timestamp": "2025-12-23T22:48:15.907213",
+        "query_time": 0.35504770278930664,
+        "results_count": 5,
+        "top_score": 0.6380296,
+        "results": [
+          {
+            "score": 0.6380296,
+            "group_id": "Central Tax::26/2022",
+            "tax_type": "Central Tax",
+            "notification_no": "26/2022",
+            "chunk_index": 41,
+            "chunk_text_preview": "The reasons in respect of that part of the differential tax liability that has remained unpaid, are as under:\nS No Brief Reasons for Difference Details (Mandatory)\nExcess Liability paid in earlier tax...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2022-12-26"
+          },
+          {
+            "score": 0.63035375,
+            "group_id": "Central Tax::13/2025",
+            "tax_type": "Central Tax",
+            "notification_no": "13/2025",
+            "chunk_index": 17,
+            "chunk_text_preview": "This column should also\ncontain details of any input tax credit reversed\nunder section 17(5) of the CGST Act, 2017 and\ndetails of ineligible transition credit claimed\nunder FORM GST TRAN-I or FORM GST...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2025-09-17"
+          },
+          {
+            "score": 0.6238845,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 96,
+            "chunk_text_preview": "(2) The claim of input tax credit in respect of any tax period which had been communicated\nas mismatched but is found to be matched after rectification by the supplier or recipient shall\nbe finally ac...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.6216852,
+            "group_id": "Central Tax::29/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "29/2023",
+            "chunk_index": 4,
+            "chunk_text_preview": "Name of the authorized representative –\n9 Details of the case under dispute –\n(i) Brief issue of the case under dispute –\n(ii) Amount of transitional credit claimed before the issuance of circular no ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-31"
+          },
+          {
+            "score": 0.6197667,
+            "group_id": "Central Tax::74/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "74/2018",
+            "chunk_index": 77,
+            "chunk_text_preview": "16A Aggregate value of all credit reversed when a person opts to pay tax under the\ncomposition scheme shall be declared here The details furnished in FORM\nITC-03 may be used for filling up these detai...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": null
+          }
+        ]
+      },
+      {
+        "query": "Name the major High Court case that addressed the issue of the legal right of a taxpayer to claim lapsed transitional credit (under the old regime) through the filing of a revised/new TRAN-1 form, where the deadline was missed due to technical glitches.?",
+        "timestamp": "2025-12-23T22:48:16.270885",
+        "query_time": 0.36348533630371094,
+        "results_count": 5,
+        "top_score": 0.61328226,
+        "results": [
+          {
+            "score": 0.61328226,
+            "group_id": "Central Tax::13/2025",
+            "tax_type": "Central Tax",
+            "notification_no": "13/2025",
+            "chunk_index": 17,
+            "chunk_text_preview": "This column should also\ncontain details of any input tax credit reversed\nunder section 17(5) of the CGST Act, 2017 and\ndetails of ineligible transition credit claimed\nunder FORM GST TRAN-I or FORM GST...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2025-09-17"
+          },
+          {
+            "score": 0.6120651,
+            "group_id": "Central Tax::26/2022",
+            "tax_type": "Central Tax",
+            "notification_no": "26/2022",
+            "chunk_index": 41,
+            "chunk_text_preview": "The reasons in respect of that part of the differential tax liability that has remained unpaid, are as under:\nS No Brief Reasons for Difference Details (Mandatory)\nExcess Liability paid in earlier tax...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2022-12-26"
+          },
+          {
+            "score": 0.60779583,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 96,
+            "chunk_text_preview": "(2) The claim of input tax credit in respect of any tax period which had been communicated\nas mismatched but is found to be matched after rectification by the supplier or recipient shall\nbe finally ac...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.60551167,
+            "group_id": "Central Tax::29/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "29/2023",
+            "chunk_index": 4,
+            "chunk_text_preview": "Name of the authorized representative –\n9 Details of the case under dispute –\n(i) Brief issue of the case under dispute –\n(ii) Amount of transitional credit claimed before the issuance of circular no ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-31"
+          },
+          {
+            "score": 0.60201573,
+            "group_id": "Central Tax::08/2022",
+            "tax_type": "Central Tax",
+            "notification_no": "08/2022",
+            "chunk_index": 3,
+            "chunk_text_preview": "29AACCF0683K1CO\n48 29AADCD4946L1CH\n49 33AACCF0683K1CZ\n50 33AAICA3918J1C0\n51 36AADCD4946L1CM\n52 36AAICA3918J1CU\n53 09AACCF0683K1CQ\n54 09AAICA3918J1CR\n55 08AAICA3918J1CT\n56 24AAICA3918J1CZ\n57 27AAICA391...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2022-07-13"
+          }
+        ]
+      },
+      {
+        "query": "GST Name the major High Court case that addressed the issue of the legal right of a taxpayer to claim lapsed transitional credit (under the old regime) through the filing of a revised/new TRAN-1 form, where the deadline was missed due to technical glitches.",
+        "timestamp": "2025-12-23T22:48:16.623926",
+        "query_time": 0.3528406620025635,
+        "results_count": 5,
+        "top_score": 0.7111273,
+        "results": [
+          {
+            "score": 0.7111273,
+            "group_id": "Central Tax::13/2025",
+            "tax_type": "Central Tax",
+            "notification_no": "13/2025",
+            "chunk_index": 17,
+            "chunk_text_preview": "This column should also\ncontain details of any input tax credit reversed\nunder section 17(5) of the CGST Act, 2017 and\ndetails of ineligible transition credit claimed\nunder FORM GST TRAN-I or FORM GST...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2025-09-17"
+          },
+          {
+            "score": 0.7110659,
+            "group_id": "Central Tax::29/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "29/2023",
+            "chunk_index": 6,
+            "chunk_text_preview": "[PAGE 5]\nANNEXURE-2\nSUMMARY OF TRANSITIONAL CREDIT AVAILABLE AFTER ISSUE OF ORDER BY THE\nAPPELLATE AUTHORITY WITH REFERENCE TO AN ORDER PASSED IN ACCORDANCE WITH\nCIRCULAR NO 182/14/2022-GST, DATED 10t...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-31"
+          },
+          {
+            "score": 0.71059716,
+            "group_id": "Central Tax::39/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "39/2018",
+            "chunk_index": 30,
+            "chunk_text_preview": "6L Details of transition credit received in the electronic credit ledger after filing\nof FORM GST TRAN-II shall be declared here 6M Details of ITC availed but not covered in any of heads specified und...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-09-04"
+          },
+          {
+            "score": 0.7041917,
+            "group_id": "Central Tax::29/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "29/2023",
+            "chunk_index": 4,
+            "chunk_text_preview": "Name of the authorized representative –\n9 Details of the case under dispute –\n(i) Brief issue of the case under dispute –\n(ii) Amount of transitional credit claimed before the issuance of circular no ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-31"
+          },
+          {
+            "score": 0.7040341,
+            "group_id": "Central Tax::74/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "74/2018",
+            "chunk_index": 56,
+            "chunk_text_preview": "Table 4(A)(4) of FORM GSTR-3B may be used for\nfilling up these details 6H Aggregate value of input tax credit availed, reversed and reclaimed under the\nprovisions of the Act shall be declared here 6J ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": null
+          }
+        ]
+      },
+      {
+        "query": "notification Name the major High Court case that addressed the issue of the legal right of a taxpayer to claim lapsed transitional credit (under the old regime) through the filing of a revised/new TRAN-1 form, where the deadline was missed due to technical glitches.",
+        "timestamp": "2025-12-23T22:48:16.988761",
+        "query_time": 0.3646104335784912,
+        "results_count": 5,
+        "top_score": 0.68052864,
+        "results": [
+          {
+            "score": 0.68052864,
+            "group_id": "Central Tax::29/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "29/2023",
+            "chunk_index": 4,
+            "chunk_text_preview": "Name of the authorized representative –\n9 Details of the case under dispute –\n(i) Brief issue of the case under dispute –\n(ii) Amount of transitional credit claimed before the issuance of circular no ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-31"
+          },
+          {
+            "score": 0.67422926,
+            "group_id": "Central Tax::29/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "29/2023",
+            "chunk_index": 6,
+            "chunk_text_preview": "[PAGE 5]\nANNEXURE-2\nSUMMARY OF TRANSITIONAL CREDIT AVAILABLE AFTER ISSUE OF ORDER BY THE\nAPPELLATE AUTHORITY WITH REFERENCE TO AN ORDER PASSED IN ACCORDANCE WITH\nCIRCULAR NO 182/14/2022-GST, DATED 10t...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-31"
+          },
+          {
+            "score": 0.6720058,
+            "group_id": "Central Tax::13/2025",
+            "tax_type": "Central Tax",
+            "notification_no": "13/2025",
+            "chunk_index": 17,
+            "chunk_text_preview": "This column should also\ncontain details of any input tax credit reversed\nunder section 17(5) of the CGST Act, 2017 and\ndetails of ineligible transition credit claimed\nunder FORM GST TRAN-I or FORM GST...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2025-09-17"
+          },
+          {
+            "score": 0.67145956,
+            "group_id": "Central Tax::39/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "39/2018",
+            "chunk_index": 30,
+            "chunk_text_preview": "6L Details of transition credit received in the electronic credit ledger after filing\nof FORM GST TRAN-II shall be declared here 6M Details of ITC availed but not covered in any of heads specified und...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-09-04"
+          },
+          {
+            "score": 0.6626977,
+            "group_id": "Central Tax::26/2022",
+            "tax_type": "Central Tax",
+            "notification_no": "26/2022",
+            "chunk_index": 41,
+            "chunk_text_preview": "The reasons in respect of that part of the differential tax liability that has remained unpaid, are as under:\nS No Brief Reasons for Difference Details (Mandatory)\nExcess Liability paid in earlier tax...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2022-12-26"
+          }
+        ]
+      },
+      {
+        "query": "Name major High Court case that addressed issue of legal right of taxpayer to claim lapsed transitional credit (under old regime) through filing of revised/new TRAN-1 form, where deadline was missed due to technical glitches.",
+        "timestamp": "2025-12-23T22:48:17.346152",
+        "query_time": 0.35718631744384766,
+        "results_count": 5,
+        "top_score": 0.65152895,
+        "results": [
+          {
+            "score": 0.65152895,
+            "group_id": "Central Tax::26/2022",
+            "tax_type": "Central Tax",
+            "notification_no": "26/2022",
+            "chunk_index": 41,
+            "chunk_text_preview": "The reasons in respect of that part of the differential tax liability that has remained unpaid, are as under:\nS No Brief Reasons for Difference Details (Mandatory)\nExcess Liability paid in earlier tax...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2022-12-26"
+          },
+          {
+            "score": 0.64313686,
+            "group_id": "Central Tax::13/2025",
+            "tax_type": "Central Tax",
+            "notification_no": "13/2025",
+            "chunk_index": 17,
+            "chunk_text_preview": "This column should also\ncontain details of any input tax credit reversed\nunder section 17(5) of the CGST Act, 2017 and\ndetails of ineligible transition credit claimed\nunder FORM GST TRAN-I or FORM GST...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2025-09-17"
+          },
+          {
+            "score": 0.63642997,
+            "group_id": "Central Tax::29/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "29/2023",
+            "chunk_index": 4,
+            "chunk_text_preview": "Name of the authorized representative –\n9 Details of the case under dispute –\n(i) Brief issue of the case under dispute –\n(ii) Amount of transitional credit claimed before the issuance of circular no ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-31"
+          },
+          {
+            "score": 0.63473034,
+            "group_id": "Central Tax::39/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "39/2018",
+            "chunk_index": 30,
+            "chunk_text_preview": "6L Details of transition credit received in the electronic credit ledger after filing\nof FORM GST TRAN-II shall be declared here 6M Details of ITC availed but not covered in any of heads specified und...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-09-04"
+          },
+          {
+            "score": 0.6304257,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 96,
+            "chunk_text_preview": "(2) The claim of input tax credit in respect of any tax period which had been communicated\nas mismatched but is found to be matched after rectification by the supplier or recipient shall\nbe finally ac...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          }
+        ]
+      },
+      {
+        "query": "major high court case addressed",
+        "timestamp": "2025-12-23T22:48:17.642634",
+        "query_time": 0.2963261604309082,
+        "results_count": 5,
+        "top_score": 0.6577051,
+        "results": [
+          {
+            "score": 0.6577051,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 405,
+            "chunk_text_preview": "Whether the appellant wishes to be heard in person – Yes / No\n11 Statement of facts:-\n12 Grounds of appeal:-\n13 Prayer:-\n14 Amount of demand created, admitted and disputed\nParticulars Particulars Cent...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.6486446,
+            "group_id": "Central Tax::13/2025",
+            "tax_type": "Central Tax",
+            "notification_no": "13/2025",
+            "chunk_index": 4,
+            "chunk_text_preview": "(2) In case the single Member Bench, while hearing the appeal allotted under sub-rule (1), comes to a\nconclusion that the appeal may involve a question of law, such Bench shall for reasons to be recor...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2025-09-17"
+          },
+          {
+            "score": 0.6345502,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 401,
+            "chunk_text_preview": "Yes/No\n14 The facts of the case (in brief)\n15 Ground of Appeal\n16 Payment details Challan Identification\nNumber (CIN) –\nDate -\nPrayer\nIn view of the foregoing, it is respectfully prayed that the Ld Ap...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.6342924,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 399,
+            "chunk_text_preview": "Question(s) on which advance\nruling is required\n15 Statement of relevant facts having\na bearing on the question(s) raised 16 Statement containing the\napplicant’s interpretation of law\nand/or facts, as...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.6331228,
+            "group_id": "Central Tax::13/2025",
+            "tax_type": "Central Tax",
+            "notification_no": "13/2025",
+            "chunk_index": 48,
+            "chunk_text_preview": "[PAGE 26]\n11 Reliefs claimed in memorandum of cross-objections 12 Summary of reply (Annexure B)\n13 Grounds of Cross-objection\n14 Para-wise reply (upload separately)\nVerification\nI, < _________________...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2025-09-17"
+          }
+        ]
+      }
+    ]
+  },
+  "query_4": {
+    "original_query": "Which specific Rule under the CGST Rules, 2017, provides the method for determining the value of supply when made between distinct persons (like Head Office and Branch)?",
+    "variations": [
+      {
+        "query": "Which specific Rule under the CGST Rules, 2017, provides the method for determining the value of supply when made between distinct persons (like Head Office and Branch)?",
+        "timestamp": "2025-12-23T22:48:17.967392",
+        "query_time": 0.32392382621765137,
+        "results_count": 5,
+        "top_score": 0.72585285,
+        "results": [
+          {
+            "score": 0.72585285,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 16,
+            "chunk_text_preview": "35 Value of supply inclusive of integrated tax, central tax, State tax, Union territory\ntax.-Where the value of supply is inclusive of integrated tax or, as the case may be, central\ntax, State tax, Un...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.7067469,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "2 In the Central Goods and Services Tax Rules, 2017, after rule 26, the following shall be\ninserted, namely:-\n“Chapter IV\nDetermination of Value of Supply\n27 Value of supply of goods or services where...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.6945709,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "28 Value of supply of goods or services or both between distinct or related persons,\nother than through an agent.-The value of the supply of goods or services or both between\ndistinct persons as speci...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.68798906,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 6,
+            "chunk_text_preview": "2 [PAGE 3]\n31 Residual method for determination of value of supply of goods or services or both.-\nWhere the value of supply of goods or services or both cannot be determined under rules 27\nto 30, the ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.68795305,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 275,
+            "chunk_text_preview": "Instructions:\n1) Value of Taxable Supplies = Value of invoices + value of Debit Notes – value of credit\nnotes + value of advances received for which invoices have not been issued in the same\nmonth – v...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          }
+        ]
+      },
+      {
+        "query": "Which specific Rule under the Central Goods and Services Tax Rules, 2017, provides the method for determining the value of supply when made between distinct persons (like Head Office and Branch)?",
+        "timestamp": "2025-12-23T22:48:18.297239",
+        "query_time": 0.329662561416626,
+        "results_count": 5,
+        "top_score": 0.77962035,
+        "results": [
+          {
+            "score": 0.77962035,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "2 In the Central Goods and Services Tax Rules, 2017, after rule 26, the following shall be\ninserted, namely:-\n“Chapter IV\nDetermination of Value of Supply\n27 Value of supply of goods or services where...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.74248385,
+            "group_id": "Central Tax::4/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "4/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "(E).- In exercise of the powers conferred by sub-section (3) of section 9 of the\nCentral Goods and Services Tax Act, 2017 (12 of 2017), the Central Government, on the\nrecommendations of the Council, h...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.73754907,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "28 Value of supply of goods or services or both between distinct or related persons,\nother than through an agent.-The value of the supply of goods or services or both between\ndistinct persons as speci...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.7349652,
+            "group_id": "Central Tax::65/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "65/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "65/2017 – Central Tax\nNew Delhi, the 15th November, 2017\nG.S.R …..(E).— In exercise of the powers conferred by sub-section (2) of section 23 of the\nCentral Goods and Services Tax Act, 2017 (12 of 2017...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-11-15"
+          },
+          {
+            "score": 0.7274806,
+            "group_id": "Central Tax::34/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "34/2023",
+            "chunk_index": 1,
+            "chunk_text_preview": "34/2023- Central Tax\nNew Delhi, dated the 31st July, 2023\nG.S.R ......(E).— In exercise of the powers conferred by sub-section (2) of section 23 of the Central Goods and\nServices Tax Act, 2017 (12 of ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-31"
+          }
+        ]
+      },
+      {
+        "query": "Which specific Rule under the CGoods and Services Tax Rules, 2017, provides the method for determining the value of supply when made between distinct persons (like Head Office and Branch)?",
+        "timestamp": "2025-12-23T22:48:18.628922",
+        "query_time": 0.33150601387023926,
+        "results_count": 5,
+        "top_score": 0.7579906,
+        "results": [
+          {
+            "score": 0.7579906,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "2 In the Central Goods and Services Tax Rules, 2017, after rule 26, the following shall be\ninserted, namely:-\n“Chapter IV\nDetermination of Value of Supply\n27 Value of supply of goods or services where...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.74718386,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "28 Value of supply of goods or services or both between distinct or related persons,\nother than through an agent.-The value of the supply of goods or services or both between\ndistinct persons as speci...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.7127306,
+            "group_id": "Central Tax::4/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "4/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "(E).- In exercise of the powers conferred by sub-section (3) of section 9 of the\nCentral Goods and Services Tax Act, 2017 (12 of 2017), the Central Government, on the\nrecommendations of the Council, h...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.70999664,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 16,
+            "chunk_text_preview": "35 Value of supply inclusive of integrated tax, central tax, State tax, Union territory\ntax.-Where the value of supply is inclusive of integrated tax or, as the case may be, central\ntax, State tax, Un...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.7039028,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 6,
+            "chunk_text_preview": "2 [PAGE 3]\n31 Residual method for determination of value of supply of goods or services or both.-\nWhere the value of supply of goods or services or both cannot be determined under rules 27\nto 30, the ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          }
+        ]
+      },
+      {
+        "query": "notification Which specific Rule under the CGST Rules, 2017, provides the method for determining the value of supply when made between distinct persons (like Head Office and Branch)?",
+        "timestamp": "2025-12-23T22:48:19.122003",
+        "query_time": 0.49288129806518555,
+        "results_count": 5,
+        "top_score": 0.7069032,
+        "results": [
+          {
+            "score": 0.7069032,
+            "group_id": "Central Tax::10/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2018",
+            "chunk_index": 0,
+            "chunk_text_preview": "[PAGE 1]\n[To be published in the Gazette of India, Extraordinary, Part II, Section 3, Sub-section\n(i)]\nGovernment of India\nMinistry of Finance\nDepartment of Revenue\nCentral Board of Excise and Customs...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-03-23"
+          },
+          {
+            "score": 0.70283,
+            "group_id": "Central Tax::22/2019",
+            "tax_type": "Central Tax",
+            "notification_no": "22/2019",
+            "chunk_index": 5,
+            "chunk_text_preview": "___________________ Date ____________\nTo\n____________________\n____________________\n____________________\n(To be addressed to the jurisdictional Commissioner)\n1 Name of the author:\n2 Address of the auth...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-09-30"
+          },
+          {
+            "score": 0.70124596,
+            "group_id": "Central Tax::39/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "39/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "39/2017 – Central Tax\nNew Delhi, the 13th October, 2017\nG.S.R….(E).- In exercise of the powers conferred by sub-section (1) of section 6 of the\nCentral Goods and Services Tax Act, 2017 (12 of 2017) (h...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-10-18"
+          },
+          {
+            "score": 0.7011593,
+            "group_id": "Central Tax::13/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "13/2017",
+            "chunk_index": 0,
+            "chunk_text_preview": "[PAGE 1]\n[TO BE PUBLISHED IN THE GAZETTE OF INDIA, EXTRAORDINARY, PART II,\nSECTION 3, SUB-SECTION (i)]\nGovernment of India\nMinistry of Finance\n(Department of Revenue)\nNotification No 13/2017- Central ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.6990587,
+            "group_id": "Central Tax::48/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "48/2017",
+            "chunk_index": 0,
+            "chunk_text_preview": "[PAGE 1]\n[TO BE PUBLISHED IN PART II, SECTION 3, SUB-SECTION (i) OF THE\nGAZETTE OF INDIA, EXTRAORDINARY]\nGOVERNMENT OF INDIA\nMINISTRY OF FINANCE\nDepartment of Revenue\nCENTRAL BOARD OF EXCISE AND CUSTO...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-10-18"
+          }
+        ]
+      },
+      {
+        "query": "Which specific Rule under CGST Rules, 2017, provides method for determining value of supply when made between distinct persons (like Head Office and Branch)?",
+        "timestamp": "2025-12-23T22:48:19.450531",
+        "query_time": 0.32832956314086914,
+        "results_count": 5,
+        "top_score": 0.7322854,
+        "results": [
+          {
+            "score": 0.7322854,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 16,
+            "chunk_text_preview": "35 Value of supply inclusive of integrated tax, central tax, State tax, Union territory\ntax.-Where the value of supply is inclusive of integrated tax or, as the case may be, central\ntax, State tax, Un...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.7090577,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "2 In the Central Goods and Services Tax Rules, 2017, after rule 26, the following shall be\ninserted, namely:-\n“Chapter IV\nDetermination of Value of Supply\n27 Value of supply of goods or services where...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.6984887,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 3,
+            "chunk_text_preview": "28 Value of supply of goods or services or both between distinct or related persons,\nother than through an agent.-The value of the supply of goods or services or both between\ndistinct persons as speci...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.694701,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 275,
+            "chunk_text_preview": "Instructions:\n1) Value of Taxable Supplies = Value of invoices + value of Debit Notes – value of credit\nnotes + value of advances received for which invoices have not been issued in the same\nmonth – v...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.69031507,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 6,
+            "chunk_text_preview": "2 [PAGE 3]\n31 Residual method for determination of value of supply of goods or services or both.-\nWhere the value of supply of goods or services or both cannot be determined under rules 27\nto 30, the ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          }
+        ]
+      },
+      {
+        "query": "specific rule under cgst rules,",
+        "timestamp": "2025-12-23T22:48:19.766639",
+        "query_time": 0.31592464447021484,
+        "results_count": 5,
+        "top_score": 0.7278722,
+        "results": [
+          {
+            "score": 0.7278722,
+            "group_id": "Central Tax::60/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "60/2020",
+            "chunk_index": 35,
+            "chunk_text_preview": "A.1.3 IGST_Amt 0..1 Total IGST Option Number (Max 265.50 Total IGST amount for the\n.2 _Total Amount al length : 14,2) invoice Appropriate taxes based on\nrule will be applicable For example, either of\n...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-07-30"
+          },
+          {
+            "score": 0.72034705,
+            "group_id": "Central Tax::40/2021",
+            "tax_type": "Central Tax",
+            "notification_no": "40/2021",
+            "chunk_index": 18,
+            "chunk_text_preview": "In accordance with the provisions of Rule 159(5) of the CGST Rules , 2017, I\nhereby submit my objection on the basis of following facts and circumstances <<……………………………….>>\n<<…Documents to be uploaded…...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2021-12-29"
+          },
+          {
+            "score": 0.7182027,
+            "group_id": "Central Tax::60/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "60/2020",
+            "chunk_index": 36,
+            "chunk_text_preview": "_Total T\nAmount Appropriate taxes based on\nrule will be applicable For\nexample, either of CGST &\nSGST/UTGST or IGST will\nbe mandatory As it is conditional\nmandatory, it is marked as\n‘optional’\nA.1.3 C...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-07-30"
+          },
+          {
+            "score": 0.7146593,
+            "group_id": "Central Tax::20/2024",
+            "tax_type": "Central Tax",
+            "notification_no": "20/2024",
+            "chunk_index": 29,
+            "chunk_text_preview": "In the said rules, in FORM GSTR-9, in the table, in Pt III, in serial number 8, for serial number A and\nthe entries relating thereto, the following serial number and entries shall be substituted, name...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2024-10-08"
+          },
+          {
+            "score": 0.7127607,
+            "group_id": "Central Tax::60/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "60/2020",
+            "chunk_index": 31,
+            "chunk_text_preview": "A.1.2 SGST_UT 0..1 SGST/UTGST Optional Number (Max 650.00 Amount of SGST/UTGST\n.18 GST Amt Amount length: 12,2) payable per item(rounded\noff to 2 decimals) If SGST/UTGST is\nreported, then CGST must\nbe...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-07-30"
+          }
+        ]
+      }
+    ]
+  },
+  "query_5": {
+    "original_query": "Which major Exemption Notification (and entry number) primarily governs the exemption for services supplied to the Central Government, State Government, or a Local Authority?",
+    "variations": [
+      {
+        "query": "Which major Exemption Notification (and entry number) primarily governs the exemption for services supplied to the Central Government, State Government, or a Local Authority?",
+        "timestamp": "2025-12-23T22:48:20.157108",
+        "query_time": 0.38960719108581543,
+        "results_count": 5,
+        "top_score": 0.69512355,
+        "results": [
+          {
+            "score": 0.69512355,
+            "group_id": "Integrated Tax::9/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "9/2017",
+            "chunk_index": 7,
+            "chunk_text_preview": "[PAGE 4]\n(i) services by the Department of Posts\nby way of speed post, express parcel\npost, life insurance, and agency services\nprovided to a person other than the\nCentral Government, State Government...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-14"
+          },
+          {
+            "score": 0.6819919,
+            "group_id": "Union Territory Tax::12/2017",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "12/2017",
+            "chunk_index": 6,
+            "chunk_text_preview": "8 Chapter 99 Services provided by the Central Nil Nil\nGovernment, State Government, Union\nterritory or local authority to another\nCentral Government, State Government,\nUnion territory or local authori...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-30"
+          },
+          {
+            "score": 0.6819919,
+            "group_id": "Central Tax::12/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "12/2017",
+            "chunk_index": 6,
+            "chunk_text_preview": "8 Chapter 99 Services provided by the Central Nil Nil\nGovernment, State Government, Union\nterritory or local authority to another\nCentral Government, State Government,\nUnion territory or local authori...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.67792875,
+            "group_id": "Integrated Tax::9/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "9/2017",
+            "chunk_index": 5,
+            "chunk_text_preview": "7 Chapter 99 Services provided by the Central Nil Nil\nGovernment, State Government, Union\nterritory or local authority to a business\nentity with an aggregate turnover of up to\ntwenty lakh rupees (ten ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-14"
+          },
+          {
+            "score": 0.67564666,
+            "group_id": "Central Tax::31/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "31/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "690(E), dated the 28thJune, 2017, namely:-\nIn the said notification,\n(i) in the Table, -\n(a) against serial number 3, -\nA in item (iii), in column (3), for the words “Government, a local authority or ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-10-13"
+          }
+        ]
+      },
+      {
+        "query": "GST Which major Exemption Notification (and entry number) primarily governs the exemption for services supplied to the Central Government, State Government, or a Local Authority?",
+        "timestamp": "2025-12-23T22:48:20.558154",
+        "query_time": 0.40083813667297363,
+        "results_count": 5,
+        "top_score": 0.70777,
+        "results": [
+          {
+            "score": 0.70777,
+            "group_id": "Integrated Tax::32/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "32/2017",
+            "chunk_index": 1,
+            "chunk_text_preview": "2 The exemption contained in this notification shall apply to all registered persons till\nthe 31st day of March, 2018 [F No.349/74/2017-GST (Pt.)]\n(Ruchi Bisht)\nUnder Secretary to the Government of In...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-10-13"
+          },
+          {
+            "score": 0.70407426,
+            "group_id": "Central Tax::38/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "38/2017",
+            "chunk_index": 2,
+            "chunk_text_preview": "[F No.349/74/2017-GST(Pt.)]\n(Dr Sreeparvathy S.L.)\nUnder Secretary to the Government of India\nNote: - The principal notification No.32/2017-Central Tax, dated the 15th September, 2017\nwas published in...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-10-13"
+          },
+          {
+            "score": 0.703659,
+            "group_id": "Central Tax::23/2019",
+            "tax_type": "Central Tax",
+            "notification_no": "23/2019",
+            "chunk_index": 2,
+            "chunk_text_preview": "[F.No.20/06/17/2018 - GST]\n(Gunjan Kumar Verma)\nUnder Secretary to the Government of India\nNote:- The principal notification No 12/2019- Central Tax, dated the 07th March, 2019 was\npublished in the Ga...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-09-30"
+          },
+          {
+            "score": 0.70101565,
+            "group_id": "Central Tax::1/2019",
+            "tax_type": "Central Tax",
+            "notification_no": "1/2019",
+            "chunk_index": 2,
+            "chunk_text_preview": "[F No 20/06/17/2018-GST (Pt I)]\n(Dr Sreeparvathy S L.)\nUnder Secretary to the Government of India\nNote:- The principal notification No 48/2017-Central Tax dated 18th October, 2017 was\npublished in the...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-01-15"
+          },
+          {
+            "score": 0.69690174,
+            "group_id": "Central Tax::66/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "66/2017",
+            "chunk_index": 2,
+            "chunk_text_preview": "[F No 349/58/2017-GST(Pt)]\n(Dr.Sreeparvathy S.L.)\nUnder Secretary to the Government of India\nNote: - The principal notification No.40/2017-Central Tax, dated the 13th October, 2017 was\npublished in th...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-11-15"
+          }
+        ]
+      },
+      {
+        "query": "Which major Exemption Notification (and entry number) primarily governs exemption for services supplied to Central Government, State Government, or Local Authority?",
+        "timestamp": "2025-12-23T22:48:20.895444",
+        "query_time": 0.3370852470397949,
+        "results_count": 5,
+        "top_score": 0.70843804,
+        "results": [
+          {
+            "score": 0.70843804,
+            "group_id": "Integrated Tax::9/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "9/2017",
+            "chunk_index": 7,
+            "chunk_text_preview": "[PAGE 4]\n(i) services by the Department of Posts\nby way of speed post, express parcel\npost, life insurance, and agency services\nprovided to a person other than the\nCentral Government, State Government...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-14"
+          },
+          {
+            "score": 0.69457823,
+            "group_id": "Union Territory Tax::12/2017",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "12/2017",
+            "chunk_index": 6,
+            "chunk_text_preview": "8 Chapter 99 Services provided by the Central Nil Nil\nGovernment, State Government, Union\nterritory or local authority to another\nCentral Government, State Government,\nUnion territory or local authori...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-30"
+          },
+          {
+            "score": 0.69457823,
+            "group_id": "Central Tax::12/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "12/2017",
+            "chunk_index": 6,
+            "chunk_text_preview": "8 Chapter 99 Services provided by the Central Nil Nil\nGovernment, State Government, Union\nterritory or local authority to another\nCentral Government, State Government,\nUnion territory or local authori...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.6880028,
+            "group_id": "Integrated Tax::9/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "9/2017",
+            "chunk_index": 5,
+            "chunk_text_preview": "7 Chapter 99 Services provided by the Central Nil Nil\nGovernment, State Government, Union\nterritory or local authority to a business\nentity with an aggregate turnover of up to\ntwenty lakh rupees (ten ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-14"
+          },
+          {
+            "score": 0.6859192,
+            "group_id": "Integrated Tax::9/2017",
+            "tax_type": "Integrated Tax",
+            "notification_no": "9/2017",
+            "chunk_index": 6,
+            "chunk_text_preview": "8 Chapter 99 Services provided by the Central Nil Nil\nGovernment, State Government, Union\nterritory or local authority to another\nCentral Government, State Government,\nUnion territory or local authori...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-14"
+          }
+        ]
+      },
+      {
+        "query": "major exemption notification (and entry",
+        "timestamp": "2025-12-23T22:48:21.236167",
+        "query_time": 0.3405008316040039,
+        "results_count": 5,
+        "top_score": 0.71626234,
+        "results": [
+          {
+            "score": 0.71626234,
+            "group_id": "Central Tax::15/2022",
+            "tax_type": "Central Tax",
+            "notification_no": "15/2022",
+            "chunk_index": 1,
+            "chunk_text_preview": "691(E), dated the 28th June, 2017, namely:—\nIn the said notification,\n(i) against S No 12, in column (3), after the entry, the following explanation shall be inserted, namely: -\n“Explanation - For the...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2022-07-13"
+          },
+          {
+            "score": 0.7128283,
+            "group_id": "Integrated Tax::15/2022",
+            "tax_type": "Integrated Tax",
+            "notification_no": "15/2022",
+            "chunk_index": 2,
+            "chunk_text_preview": "684 (E), dated the 28th June, 2017, namely:-\nIn the said notification,\n(i) against S No 13, in column (3), after the entry, the following explanation shall be inserted, namely: -\n“Explanation - For th...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.7122842,
+            "group_id": "Central Tax::10/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2018",
+            "chunk_index": 2,
+            "chunk_text_preview": "(2) after the Table, the existing Explanation shall be numbered as Explanation 1 thereof and after\nExplanation 1 as so numbered, the following Explanation shall be inserted, namely: -\n“Explanation 2 -...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-03-23"
+          },
+          {
+            "score": 0.7121691,
+            "group_id": "Union Territory Tax::15/2022",
+            "tax_type": "Union Territory Tax",
+            "notification_no": "15/2022",
+            "chunk_index": 2,
+            "chunk_text_preview": "703 (E), dated the 28th June, 2017, namely: -\nIn the said notification,\n(i) against S No 12, in column (3), after the entry, the following explanation shall be inserted, namely: -\n“Explanation - For t...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.7107184,
+            "group_id": "Central Tax::9/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "9/2018",
+            "chunk_index": 2,
+            "chunk_text_preview": "(2) after the Table, the existing Explanation shall be numbered as Explanation 1 thereof and after\nExplanation 1 as so numbered, the following Explanation shall be inserted, namely: -\n“Explanation 2 -...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-01-25"
+          }
+        ]
+      }
+    ]
+  },
+  "query_6": {
+    "original_query": "What is the current mandatory turnover threshold (based on the latest Notification) for a taxpayer to generate e-invoices for B2B supplies?",
+    "variations": [
+      {
+        "query": "What is the current mandatory turnover threshold (based on the latest Notification) for a taxpayer to generate e-invoices for B2B supplies?",
+        "timestamp": "2025-12-23T22:48:21.589525",
+        "query_time": 0.3526780605316162,
+        "results_count": 5,
+        "top_score": 0.7360536,
+        "results": [
+          {
+            "score": 0.7360536,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 233,
+            "chunk_text_preview": "Quarterly turnover\ninformation shall not be captured in subsequent returns Aggregate turnover\nshall be auto-populated in subsequent years 4 Invoice-level information pertaining to the tax period shoul...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.72913283,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 240,
+            "chunk_text_preview": "1.50 Cr but they need to provide information about description of\ngoods 17 It will be mandatory to report HSN code at two digits level for taxpayers\nhaving annual turnover in the preceding year above ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.727886,
+            "group_id": "Central Tax::79/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "79/2020",
+            "chunk_index": 13,
+            "chunk_text_preview": "[PAGE 7]\n3 There may be scenarios where a percentage of the applicable rate of tax rate may be\nnotified by the Government A separate column will be provided for invoices /\ndocuments where such rate is...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-10-15"
+          },
+          {
+            "score": 0.72071725,
+            "group_id": "Central Tax::14/2022",
+            "tax_type": "Central Tax",
+            "notification_no": "14/2022",
+            "chunk_index": 3,
+            "chunk_text_preview": "[PAGE 2]\npreceding financial year from 2017-18 onwards more than the aggregate turnover as notified under\nthe said sub-rule (4) of rule 48-\n―I/We hereby declare that though our aggregate turnover in a...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2022-12-30"
+          },
+          {
+            "score": 0.7139914,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 49,
+            "chunk_text_preview": "16 [PAGE 17]\n47 Time limit for issuing tax invoice.- The invoice referred to in rule 46, in the case of the\ntaxable supply of services, shall be issued within a period of thirty days from the date of\n...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          }
+        ]
+      },
+      {
+        "query": "GST What is the current mandatory turnover threshold (based on the latest Notification) for a taxpayer to generate e-invoices for B2B supplies?",
+        "timestamp": "2025-12-23T22:48:21.945563",
+        "query_time": 0.3558499813079834,
+        "results_count": 5,
+        "top_score": 0.76721925,
+        "results": [
+          {
+            "score": 0.76721925,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 240,
+            "chunk_text_preview": "1.50 Cr but they need to provide information about description of\ngoods 17 It will be mandatory to report HSN code at two digits level for taxpayers\nhaving annual turnover in the preceding year above ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.74641645,
+            "group_id": "Central Tax::16/2019",
+            "tax_type": "Central Tax",
+            "notification_no": "16/2019",
+            "chunk_index": 39,
+            "chunk_text_preview": "2 Column nos 2, 3, 4 and 5 of the above Table i.e tax rate, turnover and tax period are\nnot mandatory 3 Place of Supply (POS) details shall be required only if demand is created under IGST\nAct.” 13 Wi...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-09-30"
+          },
+          {
+            "score": 0.74417365,
+            "group_id": "Central Tax::79/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "79/2020",
+            "chunk_index": 13,
+            "chunk_text_preview": "[PAGE 7]\n3 There may be scenarios where a percentage of the applicable rate of tax rate may be\nnotified by the Government A separate column will be provided for invoices /\ndocuments where such rate is...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-10-15"
+          },
+          {
+            "score": 0.7437246,
+            "group_id": "Central Tax::16/2019",
+            "tax_type": "Central Tax",
+            "notification_no": "16/2019",
+            "chunk_index": 42,
+            "chunk_text_preview": "2 Column nos 2, 3, 4 and 5 of the above Table i.e tax rate, turnover and tax period are\nnot mandatory 3 Place of Supply (POS) details shall be required only if demand is created under IGST\nAct.” 14 Wi...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2019-09-30"
+          },
+          {
+            "score": 0.74276555,
+            "group_id": "Central Tax::60/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "60/2020",
+            "chunk_index": 36,
+            "chunk_text_preview": "_Total T\nAmount Appropriate taxes based on\nrule will be applicable For\nexample, either of CGST &\nSGST/UTGST or IGST will\nbe mandatory As it is conditional\nmandatory, it is marked as\n‘optional’\nA.1.3 C...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-07-30"
+          }
+        ]
+      },
+      {
+        "query": "What is current mandatory turnover threshold (based on latest Notification) for taxpayer to generate e-invoices for B2B supplies?",
+        "timestamp": "2025-12-23T22:48:22.288627",
+        "query_time": 0.34290432929992676,
+        "results_count": 5,
+        "top_score": 0.7389154,
+        "results": [
+          {
+            "score": 0.7389154,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 233,
+            "chunk_text_preview": "Quarterly turnover\ninformation shall not be captured in subsequent returns Aggregate turnover\nshall be auto-populated in subsequent years 4 Invoice-level information pertaining to the tax period shoul...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.7323111,
+            "group_id": "Central Tax::10/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "10/2017",
+            "chunk_index": 240,
+            "chunk_text_preview": "1.50 Cr but they need to provide information about description of\ngoods 17 It will be mandatory to report HSN code at two digits level for taxpayers\nhaving annual turnover in the preceding year above ...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-06-28"
+          },
+          {
+            "score": 0.7270849,
+            "group_id": "Central Tax::79/2020",
+            "tax_type": "Central Tax",
+            "notification_no": "79/2020",
+            "chunk_index": 13,
+            "chunk_text_preview": "[PAGE 7]\n3 There may be scenarios where a percentage of the applicable rate of tax rate may be\nnotified by the Government A separate column will be provided for invoices /\ndocuments where such rate is...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2020-10-15"
+          },
+          {
+            "score": 0.7190428,
+            "group_id": "Central Tax::14/2022",
+            "tax_type": "Central Tax",
+            "notification_no": "14/2022",
+            "chunk_index": 3,
+            "chunk_text_preview": "[PAGE 2]\npreceding financial year from 2017-18 onwards more than the aggregate turnover as notified under\nthe said sub-rule (4) of rule 48-\n―I/We hereby declare that though our aggregate turnover in a...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2022-12-30"
+          },
+          {
+            "score": 0.7134823,
+            "group_id": "Central Tax::39/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "39/2018",
+            "chunk_index": 37,
+            "chunk_text_preview": "17 & 18 Summary of supplies effected and received against a particular HSN code to\nbe reported only in this table It will be optional for taxpayers having annual\nturnover upto ₹ 1.50 Cr It will be man...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2018-09-04"
+          }
+        ]
+      },
+      {
+        "query": "current mandatory turnover threshold (based",
+        "timestamp": "2025-12-23T22:48:22.605768",
+        "query_time": 0.3169245719909668,
+        "results_count": 5,
+        "top_score": 0.69531345,
+        "results": [
+          {
+            "score": 0.69531345,
+            "group_id": "Central Tax::74/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "74/2018",
+            "chunk_index": 39,
+            "chunk_text_preview": "[PAGE 21]\nTurnover on which tax is not\nM\nto be paid (G + L above)\nTotal Turnover (including\nN advances) (4N + 5M - 4G\nabove)\nPt",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": null
+          },
+          {
+            "score": 0.6857618,
+            "group_id": "Central Tax::74/2018",
+            "tax_type": "Central Tax",
+            "notification_no": "74/2018",
+            "chunk_index": 23,
+            "chunk_text_preview": "9 ‗Adjusted total turnover‘ means the turnover in a State or a Union territory, as\ndefined under clause (112) of section 2 excluding the value of exempt supplies other\nthan zero-rated supplies, during...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": null
+          },
+          {
+            "score": 0.6822001,
+            "group_id": "Central Tax::07/2023",
+            "tax_type": "Central Tax",
+            "notification_no": "07/2023",
+            "chunk_index": 2,
+            "chunk_text_preview": "Registered persons having an aggregate turnover Twenty-five rupees per day, subject to a\nof up to five crore rupees in the relevant financial maximum of an amount calculated at 0.02 per\nyear cent of t...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2023-07-26"
+          },
+          {
+            "score": 0.6774091,
+            "group_id": "Central Tax::27/2017",
+            "tax_type": "Central Tax",
+            "notification_no": "27/2017",
+            "chunk_index": 51,
+            "chunk_text_preview": "9 ‘Adjusted total turnover’ means the turnover in a State or a Union territory, as defined\nunder clause (112) of section 2 excluding the value of exempt supplies other than zero-rated\nsupplies, during...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2017-09-22"
+          },
+          {
+            "score": 0.67701185,
+            "group_id": "Central Tax::14/2022",
+            "tax_type": "Central Tax",
+            "notification_no": "14/2022",
+            "chunk_index": 3,
+            "chunk_text_preview": "[PAGE 2]\npreceding financial year from 2017-18 onwards more than the aggregate turnover as notified under\nthe said sub-rule (4) of rule 48-\n―I/We hereby declare that though our aggregate turnover in a...",
+            "page_no": null,
+            "issued_on": null,
+            "latest_effective_date": "2022-12-30"
+          }
+        ]
+      }
+    ]
+  }
+}

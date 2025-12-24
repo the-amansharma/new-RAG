@@ -1,0 +1,12 @@
+# Core Dependencies for API Server
+qdrant-client>=1.16.0
+python-dotenv>=1.0.0
+
+# Embeddings (using HuggingFace Hub API - no local model needed)
+huggingface-hub
+
+# API Server
+flask>=2.3.0
+flask-cors>=4.0.0
+gunicorn>=21.2.0
+
