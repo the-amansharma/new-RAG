@@ -109,3 +109,4 @@ if __name__ == "__main__":
         logger.error(f"Failed to create indexes: {e}", exc_info=True)
         exit(1)
 
+
