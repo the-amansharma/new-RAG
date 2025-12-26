@@ -1,10 +1,13 @@
 """
 Production-ready Flask API server for search functionality.
-Returns top 3 results with page content.
-Each result includes only the page that the matched chunk comes from.
+Returns top 3 results with target chunk ±1 chunks.
+Each result includes the target chunk plus the chunks before and after it (±1),
+combined into a single text output, along with accurate page number and tax type.
 """
 import os
 import json
+import re
+import codecs
 from pathlib import Path
 from flask import Flask, request, jsonify
 from flask_cors import CORS
@@ -59,24 +62,28 @@ def format_page_content(chunks: List[Dict[str, Any]]) -> str:
 
 
 def get_page_text_from_extracted_data(
-    tax_type: str,
-    notification_no: str,
-    page_no: int,
+    tax_type: str = None,
+    notification_no: str = None,
+    page_no: int = None,
     file_path: str = None
 ) -> str:
     """
-    Get page text from extracted data files in storage/extracted_text based on tax_type, notification_no, and page_no.
+    Get full page text from extracted data files in storage/extracted_text.
+    
+    Priority order:
+    1. Use file_path to construct exact JSON filename (most reliable)
+    2. Fall back to tax_type + notification_no + page_no matching
     
     Args:
-        tax_type: Tax type (e.g., "Central Tax")
+        tax_type: Tax type (e.g., "Central Tax" or "Central Tax (Rate)")
         notification_no: Notification number (e.g., "05/2018")
-        page_no: Page number to retrieve
-        file_path: Optional file path (not used, kept for compatibility)
+        page_no: Page number to retrieve (1-indexed)
+        file_path: Original PDF file path (e.g., "data\\notifications\\Central Tax (Rate)\\2017\\file.pdf")
     
     Returns:
-        Page text content, or empty string if not found
+        Full page text content, or empty string if not found
     """
-    if not tax_type or not notification_no or page_no is None:
+    if page_no is None:
         return ""
     
     try:
@@ -85,70 +92,122 @@ def get_page_text_from_extracted_data(
             logger.warning(f"Extracted text directory not found: {extracted_text_dir}")
             return ""
         
-        # Extract year from notification_no (e.g., "05/2018" -> "2018")
-        year = None
-        if "/" in notification_no:
-            year = notification_no.split("/")[-1]
-        else:
-            logger.warning(f"Invalid notification_no format: {notification_no}")
-            return ""
+        json_file = None
         
-        # Search for files matching tax_type and year
-        # Files are named like: "Central Tax (Rate)__2017__filename.json"
-        search_patterns = [
-            f"{tax_type}__{year}__*.json",
-            f"{tax_type.replace(' ', '_')}__{year}__*.json",
-            f"{tax_type.replace(' ', '_').replace('(', '').replace(')', '')}__{year}__*.json",
-            f"{tax_type.replace(' ', '_').replace('(', '').replace(')', '').replace(' ', '')}__{year}__*.json"
-        ]
+        # Method 1: Use file_path if available (most reliable)
+        if file_path:
+            try:
+                file_path_obj = Path(file_path)
+                # Extract relative path from data/notifications
+                if "notifications" in str(file_path_obj):
+                    parts = file_path_obj.parts
+                    try:
+                        idx = parts.index("notifications")
+                        relative_path = Path(*parts[idx+1:])
+                    except ValueError:
+                        # Fallback: try to extract from path string
+                        path_str = str(file_path_obj).replace("\\", "/")
+                        if "notifications/" in path_str:
+                            relative_path = Path(path_str.split("notifications/")[-1])
+                        else:
+                            relative_path = None
+                    
+                    if relative_path:
+                        # Convert to safe JSON filename: replace / with __, .pdf with .json
+                        safe_name = relative_path.as_posix().replace("/", "__").replace(".pdf", ".json")
+                        json_file = extracted_text_dir / safe_name
+                        
+                        if json_file.exists():
+                            logger.debug(f"Found extracted text file using file_path: {json_file.name}")
+            except Exception as e:
+                logger.debug(f"Error constructing path from file_path {file_path}: {e}")
         
-        # Also try variations of tax_type
-        tax_type_variations = [
-            tax_type,
-            tax_type.replace(" ", "_"),
-            tax_type.replace(" ", "_").replace("(", "").replace(")", ""),
-            tax_type.replace(" ", "").replace("(", "").replace(")", "")
-        ]
-        
-        for tax_var in tax_type_variations:
-            pattern = f"{tax_var}__{year}__*.json"
+        # Method 2: Fall back to searching by tax_type, notification_no, and year
+        if not json_file or not json_file.exists():
+            if not tax_type or not notification_no:
+                logger.warning(f"Insufficient parameters: tax_type={tax_type}, notification_no={notification_no}")
+                return ""
+            
+            # Extract year from notification_no (e.g., "05/2018" -> "2018")
+            year = None
+            if "/" in notification_no:
+                year = notification_no.split("/")[-1]
+            else:
+                logger.warning(f"Invalid notification_no format: {notification_no}")
+                return ""
+            
+            # Try tax_type variations to find matching file
+            tax_type_variations = [
+                tax_type,
+                tax_type.replace(" ", "_"),
+                tax_type.replace(" ", "_").replace("(", "").replace(")", "").replace(" ", ""),
+            ]
+            
+            # Also handle "Central Tax (Rate)" vs "Central Tax (Rate)" naming
+            if "(Rate)" in tax_type:
+                tax_type_variations.append(tax_type.replace(" ", "_").replace("(", "").replace(")", ""))
+            
+            pattern = f"*__{year}__*.json"
             matching_files = list(extracted_text_dir.glob(pattern))
             
-            for json_file in matching_files:
-                try:
-                    data = json.loads(json_file.read_text(encoding="utf-8"))
-                    pages = data.get("pages", [])
-                    if not pages:
+            for json_candidate in matching_files:
+                # Check if filename starts with any tax_type variation
+                filename = json_candidate.name
+                matches_tax_type = any(
+                    filename.startswith(f"{tax_var}__{year}__") or 
+                    filename.startswith(f"{tax_var.replace('_', ' ')}__{year}__")
+                    for tax_var in tax_type_variations
+                )
+                
+                if matches_tax_type:
+                    try:
+                        data = json.loads(json_candidate.read_text(encoding="utf-8"))
+                        pages = data.get("pages", [])
+                        if not pages:
+                            continue
+                        
+                        # Check if this file contains the notification number
+                        first_page_text = pages[0].get("text", "")
+                        notification_variations = [
+                            notification_no,
+                            notification_no.replace("/", "-"),
+                            f"Notification No {notification_no}",
+                            f"Notification No. {notification_no}",
+                            f"No {notification_no}",
+                            f"No. {notification_no}"
+                        ]
+                        
+                        matches_notification = any(nv in first_page_text for nv in notification_variations)
+                        
+                        if matches_notification:
+                            json_file = json_candidate
+                            logger.debug(f"Found extracted text file by search: {json_file.name}")
+                            break
+                    except Exception as e:
+                        logger.debug(f"Error reading {json_candidate}: {e}")
                         continue
-                    
-                    # Check if this file contains the notification number
-                    # Check first page for notification number
-                    first_page_text = pages[0].get("text", "")
-                    notification_variations = [
-                        notification_no,
-                        notification_no.replace("/", "/"),
-                        notification_no.replace("/", "-"),
-                        f"Notification No {notification_no}",
-                        f"Notification No. {notification_no}",
-                        f"No {notification_no}",
-                        f"No. {notification_no}"
-                    ]
-                    
-                    # Check if any notification variation is in the text
-                    matches_notification = any(nv in first_page_text for nv in notification_variations)
-                    
-                    if matches_notification:
-                        # Found matching file, get the requested page
-                        for page in pages:
-                            if page.get("page_no") == page_no:
-                                logger.info(f"Found page {page_no} in {json_file.name} for {tax_type} {notification_no}")
-                                return page.get("text", "")
-                except Exception as e:
-                    logger.debug(f"Error reading {json_file}: {e}")
-                    continue
         
-        logger.warning(f"Could not find extracted text file for {tax_type} {notification_no}, page {page_no}")
-        return ""
+        # Load and return the requested page
+        if json_file and json_file.exists():
+            try:
+                data = json.loads(json_file.read_text(encoding="utf-8"))
+                pages = data.get("pages", [])
+                
+                # Find the requested page
+                for page in pages:
+                    if page.get("page_no") == page_no:
+                        page_text = page.get("text", "")
+                        logger.info(f"Retrieved page {page_no} from {json_file.name}")
+                        return page_text
+                
+                logger.warning(f"Page {page_no} not found in {json_file.name} (file has {len(pages)} pages)")
+                return ""
+            except Exception as e:
+                logger.error(f"Error reading {json_file}: {e}")
+                return ""
+        else:
+            logger.warning(f"Could not find extracted text file for tax_type={tax_type}, notification_no={notification_no}, page_no={page_no}")
+            return ""
         
     except Exception as e:
         logger.error(f"Error getting page text from extracted data: {e}")
@@ -241,6 +300,118 @@ def get_chunks_by_index_range(
         return []
 
 
+def get_target_chunk_plus_minus_one(
+    group_id: str,
+    page_no: int,
+    matched_chunk_text: str = None,
+    target_chunk_index: int = None
+) -> str:
+    """
+    Get target chunk ±1 chunks from the same page and combine them.
+    
+    Args:
+        group_id: Document group ID
+        page_no: Page number where the target chunk is located
+        matched_chunk_text: Text of the matched chunk (used to find the target chunk on the page)
+        target_chunk_index: Optional chunk_index hint (global or page-specific)
+    
+    Returns:
+        Combined text of chunks at index-1, index, and index+1 from the same page, or empty string if not found
+    """
+    if not group_id or page_no is None:
+        return ""
+    
+    try:
+        # Get all chunks for the specific page, sorted by chunk_index
+        page_chunks = search_system.get_page_chunks(group_id, page_no)
+        
+        if not page_chunks:
+            logger.warning(f"No chunks found for page {page_no} in group_id {group_id}")
+            return ""
+        
+        # Sort chunks by chunk_index to maintain order
+        sorted_page_chunks = sorted(page_chunks, key=lambda x: x.get("chunk_index", 0))
+        
+        # Find the target chunk on this page
+        target_position = None
+        
+        # Method 1: Try to find by chunk_index first (most reliable if available)
+        if target_chunk_index is not None:
+            for idx, chunk in enumerate(sorted_page_chunks):
+                chunk_payload = chunk.get("payload", {})
+                chunk_idx = chunk_payload.get("chunk_index")
+                if chunk_idx is None:
+                    chunk_idx = chunk_payload.get("global_chunk_index")
+                
+                if chunk_idx == target_chunk_index:
+                    target_position = idx
+                    logger.debug(f"Found target chunk at position {idx} on page {page_no} by chunk_index {target_chunk_index}")
+                    break
+        
+        # Method 2: If chunk_index didn't work, try text matching (more flexible)
+        if target_position is None and matched_chunk_text:
+            matched_text_clean = matched_chunk_text.strip().lower()
+            
+            # Try exact substring match first
+            for idx, chunk in enumerate(sorted_page_chunks):
+                chunk_text = chunk.get("payload", {}).get("chunk_text", "").strip().lower()
+                if matched_text_clean in chunk_text or chunk_text in matched_text_clean:
+                    target_position = idx
+                    logger.debug(f"Found target chunk at position {idx} on page {page_no} by exact text matching")
+                    break
+            
+            # If still not found, try fuzzy matching with first 100 chars
+            if target_position is None:
+                matched_snippet = matched_text_clean[:100]
+                for idx, chunk in enumerate(sorted_page_chunks):
+                    chunk_text = chunk.get("payload", {}).get("chunk_text", "").strip().lower()
+                    chunk_snippet = chunk_text[:100]
+                    if matched_snippet in chunk_snippet or chunk_snippet in matched_snippet:
+                        target_position = idx
+                        logger.debug(f"Found target chunk at position {idx} on page {page_no} by fuzzy text matching")
+                        break
+        
+        # If still not found, use the first chunk as fallback (most likely the matched chunk)
+        if target_position is None:
+            if sorted_page_chunks:
+                target_position = 0
+                logger.warning(f"Could not find target chunk reliably, using first chunk at position 0 on page {page_no}")
+            else:
+                return ""
+        
+        # Get chunks at position-1, position, and position+1
+        target_chunks = []
+        positions_to_get = [target_position - 1, target_position, target_position + 1]
+        
+        for pos in positions_to_get:
+            if 0 <= pos < len(sorted_page_chunks):
+                chunk = sorted_page_chunks[pos]
+                chunk_text = chunk.get("payload", {}).get("chunk_text", "")
+                if chunk_text:
+                    target_chunks.append({
+                        "position": pos,
+                        "chunk_index": chunk.get("chunk_index", 0),
+                        "chunk_text": chunk_text
+                    })
+        
+        if not target_chunks:
+            logger.warning(f"No chunks found around position {target_position} on page {page_no}")
+            return ""
+        
+        # Sort by position to maintain order
+        target_chunks.sort(key=lambda x: x["position"])
+        
+        # Combine the chunks with clear separators
+        combined_text = "\n\n".join([chunk["chunk_text"] for chunk in target_chunks])
+        
+        logger.info(f"Retrieved {len(target_chunks)} chunks (positions: {[c['position'] for c in target_chunks]}) for page {page_no}")
+        return combined_text
+        
+    except Exception as e:
+        logger.error(f"Error fetching target chunk ±1 for group_id {group_id}, page {page_no}: {e}", exc_info=True)
+        return ""
+
+
 def format_score_for_user(final_score: float) -> str:
     """
     Convert technical score to user-friendly format.
@@ -261,6 +432,62 @@ def format_score_for_user(final_score: float) -> str:
         return "Low"
     else:
         return "Very Low"
+
+
+def clean_text_for_output(text: str) -> str:
+    """
+    Clean text to remove newlines and Unicode escape sequences.
+    
+    Args:
+        text: Input text that may contain \\n and \\u escape sequences
+    
+    Returns:
+        Cleaned text with newlines replaced by spaces and Unicode escapes decoded
+    """
+    if not text:
+        return ""
+    
+    # Replace all newline characters (\n, \r\n, \r) with spaces
+    text = text.replace('\n', ' ').replace('\r', ' ')
+    
+    # Decode Unicode escape sequences (like \u201c, \u2019, \u00A0, etc.)
+    # Check for both \u and \\u patterns
+    if '\\u' in text:
+        # First try codecs.decode approach (most reliable)
+        try:
+            # Encode to latin-1 to preserve all byte values (0-255)
+            # Then decode with unicode_escape which handles \uXXXX sequences
+            decoded = text.encode('latin-1').decode('unicode_escape')
+            text = decoded
+        except (UnicodeEncodeError, UnicodeDecodeError, AttributeError):
+            # If encoding fails, use regex-based approach
+            # This handles cases where text contains characters outside latin-1 range
+            def decode_unicode_escape(match):
+                """Decode a single Unicode escape sequence."""
+                try:
+                    hex_str = match.group(1)
+                    code_point = int(hex_str, 16)
+                    if 0 <= code_point <= 0x10FFFF:
+                        return chr(code_point)
+                    return match.group(0)
+                except (ValueError, OverflowError):
+                    return match.group(0)
+            
+            # Match \u followed by exactly 4 hex digits (case insensitive)
+            # Process multiple times to handle nested or multiple sequences
+            prev_text = ""
+            iterations = 0
+            while text != prev_text and iterations < 5:
+                prev_text = text
+                text = re.sub(r'\\u([0-9a-fA-F]{4})', decode_unicode_escape, text, flags=re.IGNORECASE)
+                iterations += 1
+    
+    # Replace multiple consecutive spaces with a single space
+    while '  ' in text:
+        text = text.replace('  ', ' ')
+    
+    # Strip leading/trailing whitespace
+    return text.strip()
 
 
 def format_document_content(chunks: List[Dict[str, Any]]) -> Dict[str, Any]:
@@ -440,10 +667,10 @@ def search():
     
     Returns:
         JSON with top 3 results. Each result includes:
-        - tax_type: Tax type (e.g., "Central Tax")
+        - tax_type: Tax type (e.g., "Central Tax" or "Central Tax (Rate)")
         - notification_no: Notification number (e.g., "05/2018")
-        - page_no: Page number of the matched chunk (e.g., 5)
-        - text: Text content from chunks ±2 indices from the matched chunk (chunk_index -2 to +2)
+        - page_no: Page number where the matched chunk was found (e.g., 5)
+        - text: Combined content of target chunk ±1 chunks (chunks at index-1, index, and index+1)
     """
     if search_system is None:
         logger.error("Search system not initialized")
@@ -495,13 +722,20 @@ def search():
             tax_type = result_data.get("tax_type")
             matched_chunk_text = result_data.get("matched_chunk_text", "")
             
-            # Get the matched chunk index from context_metadata
+            # Get the matched chunk index and page_no from context_metadata
             context_metadata = result_data.get("context_metadata", [])
             matched_chunk_index = None
+            page_no_from_context = None
             for ctx in context_metadata:
                 if ctx.get("is_matched", False):
                     matched_chunk_index = ctx.get("chunk_index")
+                    page_no_from_context = ctx.get("page_no")
                     break
+            
+            # Use page_no from context_metadata if not in result_data
+            if page_no is None and page_no_from_context is not None:
+                page_no = page_no_from_context
+                logger.debug(f"Got page_no {page_no} from context_metadata for result {idx}")
             
             # Log for debugging
             if page_no is not None:
@@ -525,19 +759,32 @@ def search():
                 matched_chunk_text=matched_chunk_text
             )
             
-            # Ensure we have page_no - use from page_content if result_data doesn't have it
+            # Ensure we have page_no - prioritize from result_data (matched chunk), then page_content
             final_page_no = page_no
             if final_page_no is None:
                 final_page_no = page_content["current_page"].get("page_no")
+            
+            # Determine actual tax_type - check file_path to see if it's "Central Tax (Rate)" vs "Central Tax"
+            tax_type_from_result = result_data.get("tax_type")
+            file_path_from_result = result_data.get("file_path") or result_data.get("source_file_path") or ""
+            
+            # If file_path contains "(Rate)" and tax_type doesn't, update tax_type
+            if file_path_from_result and tax_type_from_result and "(Rate)" not in tax_type_from_result:
+                if tax_type_from_result == "Central Tax" and "(Rate)" in file_path_from_result:
+                    tax_type_from_result = "Central Tax (Rate)"
+                elif tax_type_from_result == "Integrated Tax" and "(Rate)" in file_path_from_result:
+                    tax_type_from_result = "Integrated Tax (Rate)"
+                elif tax_type_from_result == "Union Territory Tax" and "(Rate)" in file_path_from_result:
+                    tax_type_from_result = "Union Territory Tax (Rate)"
             
             # Build result
             result = {
                 "metadata": {
                     "notification_no": result_data.get("notification_no"),
-                    "tax_type": result_data.get("tax_type"),
+                    "tax_type": tax_type_from_result,  # Preserve original tax_type (with Rate if applicable)
                     "issued_on": result_data.get("issued_on"),
-                    "page_no": final_page_no,  # Use the most reliable page_no
-                    "file_path": result_data.get("file_path"),
+                    "page_no": final_page_no,  # Page number from matched chunk
+                    "file_path": file_path_from_result or result_data.get("file_path") or result_data.get("source_file_path"),
                     "group_id": result_data.get("group_id"),
                     "matched_chunk_index": matched_chunk_index  # Store for later use
                 },
@@ -565,59 +812,48 @@ def search():
             matched_chunk_text = result.get("matched_chunk_text", "")
             matched_chunk_index = metadata.get("matched_chunk_index")
             
-            # Get page_no - prioritize from current_page (most reliable), then metadata
-            page_no = current_page_data.get("page_no")
+            # Get page_no - prioritize from metadata (which comes from matched chunk), then current_page
+            page_no = metadata.get("page_no")
             if page_no is None:
-                page_no = metadata.get("page_no")
+                page_no = current_page_data.get("page_no")
             
-            # If still None, we need to get it from the original search result
-            # The page_no should always be in the search result, so this shouldn't happen
+            # If still None, log warning
             if page_no is None:
                 logger.warning(f"Page number is None for result {idx}: {metadata.get('notification_no')}, {metadata.get('tax_type')}")
             
-            # Get page text from extracted data files using tax_type, notification_no, and page_no
+            # Get tax_type and notification_no from metadata (preserves original tax_type)
             tax_type = metadata.get("tax_type")
             notification_no = metadata.get("notification_no")
-            file_path = metadata.get("file_path")
             
-            # Fetch page text from extracted data
-            page_text = get_page_text_from_extracted_data(
-                tax_type=tax_type,
-                notification_no=notification_no,
-                page_no=page_no,
-                file_path=file_path
-            )
+            # Get target chunk ±1 chunks from the SAME PAGE ONLY
+            # Important: get_target_chunk_plus_minus_one uses search_system.get_page_chunks() 
+            # which filters by both group_id AND page_no, ensuring we ONLY get chunks 
+            # from that specific page, never from multiple pages
+            context_text = ""
+            if page_no is not None and group_id:
+                context_text = get_target_chunk_plus_minus_one(
+                    group_id=group_id,
+                    page_no=page_no,
+                    matched_chunk_text=matched_chunk_text,
+                    target_chunk_index=matched_chunk_index
+                )
             
-            # Use page text from extracted data if available, otherwise use context chunks
-            if page_text:
-                context_text = page_text
-                logger.info(f"Using page text from extracted data for {tax_type} {notification_no}, page {page_no}")
-            else:
-                # Fallback to context chunks (±2 from matched chunk)
-                context_text = "\n\n".join([chunk.get("chunk_text", "") for chunk in context_chunks])
-                
-                # If still no context, use safe fallback
-                if not context_text:
-                    total_pages = get_total_pages_for_document(group_id) if group_id else 0
-                    
-                    if total_pages == 1:
-                        # Single page document - okay to return full page
-                        context_text = current_page_data.get("content", "")
-                        logger.info(f"Single page document ({group_id}), using full page content as fallback")
-                    elif total_pages > 1:
-                        # Multi-page document - only return matched chunk text to avoid large response
-                        context_text = matched_chunk_text or ""
-                        logger.warning(f"Multi-page document ({total_pages} pages, {group_id}), using only matched chunk text as fallback")
-                    else:
-                        # Couldn't determine page count - use matched chunk text as safe fallback
-                        context_text = matched_chunk_text or ""
-                        logger.warning(f"Could not determine page count for {group_id}, using matched chunk text as fallback")
+            # Fallback: use matched chunk text only if we couldn't get context
+            if not context_text:
+                context_text = matched_chunk_text or ""
+                if not group_id:
+                    logger.warning(f"Could not get target chunk ±1: missing group_id")
+                else:
+                    logger.warning(f"Could not get target chunk ±1 for page {page_no}, using matched chunk text only")
+            
+            # Clean the text to remove \n and \u escape sequences
+            cleaned_text = clean_text_for_output(context_text)
             
             simplified_results.append({
-                "tax_type": metadata.get("tax_type"),
-                "notification_no": metadata.get("notification_no"),
-                "page_no": page_no,
-                "text": context_text  # Text from chunks ±2 from matched chunk (or safe fallback)
+                "tax_type": tax_type,  # Accurate tax_type (includes "(Rate)" if applicable)
+                "notification_no": notification_no,
+                "page_no": page_no,  # Accurate page number
+                "text": cleaned_text  # Target chunk ±1 chunks from the same page ONLY (cleaned)
             })
         
         # Ensure only top 3 results are returned
